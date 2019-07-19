@@ -1,42 +1,1111 @@
-/*C7*/SET SCHEMA "isissessionlogger"
-DELETE FROM "SessionLogEntry" WHERE "sessionId"='2010727813'
-INSERT INTO "SessionLogEntry" VALUES('2010727813','RESTART','2019-07-16 08:05:21.986000','2019-07-16 21:43:18.695000','admin')
-COMMIT
-SET SCHEMA "isissecurity"
+/*C11*/SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA PUBLIC
+SET SCHEMA "PUBLIC"
+DISCONNECT
+/*C12*/SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA PUBLIC
+SET SCHEMA "PUBLIC"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA "flyway"
+SET SCHEMA PUBLIC
+SET SCHEMA "PUBLIC"
+DISCONNECT
+/*C14*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C15*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C13*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C20*/SET SCHEMA "isissecurity"
 DELETE FROM "ApplicationUser" WHERE "id"=1
-INSERT INTO "ApplicationUser" VALUES(1,'LOCAL','/',NULL,'$2a$10$MIZRpgPVyUZEN/sEcER/EeZTewEpsecq8Uw.p1X9x2nYonWXzwQHG',NULL,NULL,NULL,NULL,NULL,'ENABLED','admin',17)
+INSERT INTO "ApplicationUser" VALUES(1,'LOCAL','/',NULL,'$2a$10$XRr2l4Ib0hBp4qOeEXi6COYsH8N1UbEJ03n2qQOxeOMqjQ2/29UgK',NULL,NULL,NULL,NULL,NULL,'ENABLED','admin',19)
 COMMIT
 SET SCHEMA "isissessionlogger"
-INSERT INTO "SessionLogEntry" VALUES('376041964',NULL,'2019-07-16 21:43:29.695000',NULL,'admin')
+INSERT INTO "SessionLogEntry" VALUES('2114399612',NULL,'2019-07-19 16:44:29.456000',NULL,'admin')
 COMMIT
-/*C6*/SET SCHEMA "statements"
-DELETE FROM "Transaction" WHERE "id"=118
-INSERT INTO "Transaction" VALUES(118,839,30,'BHAGAT TARACHAND         NAVI MUMBA','06/04/2019 BHAGAT TARACHAND         NAVI MUMBA 839.00',NULL,0,73,'2019-04-06 00:00:00.000000','DEBIT','2019-07-16 21:44:56.985000',1)
-DELETE FROM "Transaction" WHERE "id"=202
-INSERT INTO "Transaction" VALUES(202,380,30,'BHAGAT TARACHAND       NAVI MUMBAI','21/05/2019 BHAGAT TARACHAND       NAVI MUMBAI 380.00',NULL,0,73,'2019-05-21 00:00:00.000000','DEBIT','2019-07-16 21:44:56.988000',1)
-DELETE FROM "Transaction" WHERE "id"=207
-INSERT INTO "Transaction" VALUES(207,1680,30,'BHAGAT TARACHAND         NAVI MUMBA','24/05/2019 BHAGAT TARACHAND         NAVI MUMBA 1,680.00',NULL,0,73,'2019-05-24 00:00:00.000000','DEBIT','2019-07-16 21:44:56.989000',1)
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=2935
+INSERT INTO "Transaction" VALUES(2935,1138,18,'20171104012050116733/PAYTMWALLETLOADING',' 04/11/17  ,20171104012050116733/PAYTMWALLETLOADING                                                                                  ,04/11/17 ,       1138.00     ,          0.00     ,0000173084069431       ,    579396.40  ','0000173084069431',6,65,'2017-11-04 00:00:00.000000','DEBIT','2019-07-19 16:51:20.885000',1)
+DELETE FROM "Transaction" WHERE "id"=2937
+INSERT INTO "Transaction" VALUES(2937,2000,18,'20171105012084808833/PAYTMWALLETLOADING',' 05/11/17  ,20171105012084808833/PAYTMWALLETLOADING                                                                                  ,05/11/17 ,       2000.00     ,          0.00     ,0000173094885084       ,    530396.40  ','0000173094885084',6,65,'2017-11-05 00:00:00.000000','DEBIT','2019-07-19 16:51:20.887000',1)
+DELETE FROM "Transaction" WHERE "id"=2990
+INSERT INTO "Transaction" VALUES(2990,2000,18,'20180101013680324633/PAYTMWALLETLOADING',' 01/01/18  ,20180101013680324633/PAYTMWALLETLOADING                                                                                  ,01/01/18 ,       2000.00     ,          0.00     ,0000180016427497       ,    218413.77  ','0000180016427497',6,65,'2018-01-01 00:00:00.000000','DEBIT','2019-07-19 16:51:20.889000',1)
+DELETE FROM "Transaction" WHERE "id"=3009
+INSERT INTO "Transaction" VALUES(3009,2000,18,'20180126014446934233/PAYTMWALLETLOADING',' 26/01/18  ,20180126014446934233/PAYTMWALLETLOADING                                                                                  ,26/01/18 ,       2000.00     ,          0.00     ,0000180265130382       ,     88157.77  ','0000180265130382',6,65,'2018-01-26 00:00:00.000000','DEBIT','2019-07-19 16:51:20.890000',1)
+DELETE FROM "Transaction" WHERE "id"=3018
+INSERT INTO "Transaction" VALUES(3018,2000,18,'20180206014790101633/PAYTMWALLETLOADING',' 06/02/18  ,20180206014790101633/PAYTMWALLETLOADING                                                                                  ,06/02/18 ,       2000.00     ,          0.00     ,0000180373450447       ,    184304.76  ','0000180373450447',6,65,'2018-02-06 00:00:00.000000','DEBIT','2019-07-19 16:51:20.893000',1)
+DELETE FROM "Transaction" WHERE "id"=4691
+INSERT INTO "Transaction" VALUES(4691,2000,18,'7596795399/PAYTMWALLETLOADING',' 11/03/18  ,7596795399/PAYTMWALLETLOADING                                                                                            ,11/03/18 ,       2000.00     ,          0.00     ,0000180708233382       ,     61125.81  ','0000180708233382',10,65,'2018-03-11 00:00:00.000000','DEBIT','2019-07-19 16:51:20.894000',1)
+DELETE FROM "Transaction" WHERE "id"=3068
+INSERT INTO "Transaction" VALUES(3068,2000,18,'7704997904/PAYTMWALLETLOADING',' 18/04/18  ,7704997904/PAYTMWALLETLOADING                                                                                            ,18/04/18 ,       2000.00     ,          0.00     ,0000181087628959       ,     43997.33  ','0000181087628959',6,65,'2018-04-18 00:00:00.000000','DEBIT','2019-07-19 16:51:20.895000',1)
+DELETE FROM "Transaction" WHERE "id"=3152
+INSERT INTO "Transaction" VALUES(3152,2000,18,'7871127657/PAYTMWALLETLOADING',' 23/06/18  ,7871127657/PAYTMWALLETLOADING                                                                                            ,23/06/18 ,       2000.00     ,          0.00     ,0000181740684506       ,    113320.25  ','0000181740684506',6,65,'2018-06-23 00:00:00.000000','DEBIT','2019-07-19 16:51:20.897000',1)
+DELETE FROM "Transaction" WHERE "id"=3175
+INSERT INTO "Transaction" VALUES(3175,2000,18,'7937750861/PAYTMWALLETLOADING',' 20/07/18  ,7937750861/PAYTMWALLETLOADING                                                                                            ,20/07/18 ,       2000.00     ,          0.00     ,0000182013143823       ,    132848.99  ','0000182013143823',6,65,'2018-07-20 00:00:00.000000','DEBIT','2019-07-19 16:51:20.899000',1)
+DELETE FROM "Transaction" WHERE "id"=3265
+INSERT INTO "Transaction" VALUES(3265,2000,18,'20181018026201517233/PAYTMWALLETLOADING',' 18/10/18  ,20181018026201517233/PAYTMWALLETLOADING                                                                                  ,18/10/18 ,       2000.00     ,          0.00     ,0000182915979161       ,    122677.61  ','0000182915979161',6,65,'2018-10-18 00:00:00.000000','DEBIT','2019-07-19 16:51:20.900000',1)
+DELETE FROM "Transaction" WHERE "id"=3275
+INSERT INTO "Transaction" VALUES(3275,164,18,'20181028026776299633/PAYTMWALLETLOADING',' 28/10/18  ,20181028026776299633/PAYTMWALLETLOADING                                                                                  ,28/10/18 ,        163.92     ,          0.00     ,0000183013371114       ,    125299.21  ','0000183013371114',6,65,'2018-10-28 00:00:00.000000','DEBIT','2019-07-19 16:51:20.902000',1)
+DELETE FROM "Transaction" WHERE "id"=3285
+INSERT INTO "Transaction" VALUES(3285,2000,18,'8161256923/PAYTMWALLETLOADING',' 04/11/18  ,8161256923/PAYTMWALLETLOADING                                                                                            ,04/11/18 ,       2000.00     ,          0.00     ,0000183089900883       ,    274065.28  ','0000183089900883',6,65,'2018-11-04 00:00:00.000000','DEBIT','2019-07-19 16:51:20.908000',1)
+DELETE FROM "Transaction" WHERE "id"=3290
+INSERT INTO "Transaction" VALUES(3290,1,18,'8170271323/PAYTMWALLETLOADING',' 09/11/18  ,8170271323/PAYTMWALLETLOADING                                                                                            ,09/11/18 ,          0.62     ,          0.00     ,0000183133614485       ,    210253.66  ','0000183133614485',6,65,'2018-11-09 00:00:00.000000','DEBIT','2019-07-19 16:51:20.909000',1)
+DELETE FROM "Transaction" WHERE "id"=3291
+INSERT INTO "Transaction" VALUES(3291,2000,18,'20181109027578040933/PAYTMWALLETLOADING',' 09/11/18  ,20181109027578040933/PAYTMWALLETLOADING                                                                                  ,09/11/18 ,       2000.00     ,          0.00     ,0000183133615378       ,    208253.66  ','0000183133615378',6,65,'2018-11-09 00:00:00.000000','DEBIT','2019-07-19 16:51:20.912000',1)
+DELETE FROM "Transaction" WHERE "id"=3315
+INSERT INTO "Transaction" VALUES(3315,16,18,'20181202029060160533/PAYTMWALLETLOADING',' 02/12/18  ,20181202029060160533/PAYTMWALLETLOADING                                                                                  ,02/12/18 ,         16.32     ,          0.00     ,0000183361520660       ,    299142.92  ','0000183361520660',6,65,'2018-12-02 00:00:00.000000','DEBIT','2019-07-19 16:51:20.915000',1)
+DELETE FROM "Transaction" WHERE "id"=3328
+INSERT INTO "Transaction" VALUES(3328,1482,18,'20181210029726879533/PAYTMWALLETLOADING',' 10/12/18  ,20181210029726879533/PAYTMWALLETLOADING                                                                                  ,10/12/18 ,       1482.00     ,          0.00     ,0000183448450234       ,    132549.92  ','0000183448450234',6,65,'2018-12-10 00:00:00.000000','DEBIT','2019-07-19 16:51:20.917000',1)
+DELETE FROM "Transaction" WHERE "id"=3368
+INSERT INTO "Transaction" VALUES(3368,1483,18,'20190112032632177333/PAYTMWALLETLOADING',' 12/01/19  ,20190112032632177333/PAYTMWALLETLOADING                                                                                  ,12/01/19 ,       1483.00     ,          0.00     ,0000190125882843       ,    107856.84  ','0000190125882843',6,65,'2019-01-12 00:00:00.000000','DEBIT','2019-07-19 16:51:20.919000',1)
+DELETE FROM "Transaction" WHERE "id"=3405
+INSERT INTO "Transaction" VALUES(3405,1500,18,'20190210035397321933/PAYTMWALLETLOADING',' 10/02/19  ,20190210035397321933/PAYTMWALLETLOADING                                                                                  ,10/02/19 ,       1500.00     ,          0.00     ,0000190419929645       ,     63547.62  ','0000190419929645',6,65,'2019-02-10 00:00:00.000000','DEBIT','2019-07-19 16:51:20.920000',1)
+DELETE FROM "Transaction" WHERE "id"=3415
+INSERT INTO "Transaction" VALUES(3415,366,18,'20190217036161909433/PAYTMWALLETLOADING',' 17/02/19  ,20190217036161909433/PAYTMWALLETLOADING                                                                                  ,17/02/19 ,        366.00     ,          0.00     ,0000190486216678       ,     18704.39  ','0000190486216678',6,65,'2019-02-17 00:00:00.000000','DEBIT','2019-07-19 16:51:20.921000',1)
+DELETE FROM "Transaction" WHERE "id"=1526
+INSERT INTO "Transaction" VALUES(1526,2000,18,'20190410042027898733/PAYTMWALLETLOADING',' 10/04/19  ,20190410042027898733/PAYTMWALLETLOADING                                                                                  ,10/04/19 ,       2000.00     ,          0.00     ,0000191001942385       ,    259171.88  ','0000191001942385',6,65,'2019-04-10 00:00:00.000000','DEBIT','2019-07-19 16:51:20.922000',1)
+DELETE FROM "Transaction" WHERE "id"=1586
+INSERT INTO "Transaction" VALUES(1586,2179,18,'20190609048936151733/PAYTMWALLETLOADING',' 09/06/19  ,20190609048936151733/PAYTMWALLETLOADING                                                                                  ,09/06/19 ,       2179.00     ,          0.00     ,0000191604745707       ,     57511.48  ','0000191604745707',6,65,'2019-06-09 00:00:00.000000','DEBIT','2019-07-19 16:51:20.924000',1)
+DELETE FROM "Transaction" WHERE "id"=3489
+INSERT INTO "Transaction" VALUES(3489,2000,18,'20190620050051684533/PAYTMWALLETLOADING',' 20/06/19  ,20190620050051684533/PAYTMWALLETLOADING                                                                                  ,20/06/19 ,       2000.00     ,          0.00     ,0000191713869354       ,     70880.74  ','0000191713869354',8,65,'2019-06-20 00:00:00.000000','DEBIT','2019-07-19 16:51:20.925000',1)
 SET SCHEMA "isisaudit"
-INSERT INTO "AuditEntry" VALUES(58740,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:118','2019-07-16 21:44:59.353000','6376a047-7895-4c5b-8046-69912eb9aa86','admin')
-INSERT INTO "AuditEntry" VALUES(58741,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:118','2019-07-16 21:44:59.353000','6376a047-7895-4c5b-8046-69912eb9aa86','admin')
-INSERT INTO "AuditEntry" VALUES(58742,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:202','2019-07-16 21:44:59.353000','6376a047-7895-4c5b-8046-69912eb9aa86','admin')
-INSERT INTO "AuditEntry" VALUES(58743,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:202','2019-07-16 21:44:59.353000','6376a047-7895-4c5b-8046-69912eb9aa86','admin')
-INSERT INTO "AuditEntry" VALUES(58744,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:207','2019-07-16 21:44:59.353000','6376a047-7895-4c5b-8046-69912eb9aa86','admin')
-INSERT INTO "AuditEntry" VALUES(58745,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:207','2019-07-16 21:44:59.353000','6376a047-7895-4c5b-8046-69912eb9aa86','admin')
+INSERT INTO "AuditEntry" VALUES(59110,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:2935','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59111,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:2935','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59112,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:2937','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59113,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:2937','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59114,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:2990','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59115,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:2990','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59116,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3009','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59117,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3009','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59118,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3018','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59119,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3018','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59120,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:4691','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59121,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:4691','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59122,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3068','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59123,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3068','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59124,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3152','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59125,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3152','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59126,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3175','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59127,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3175','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59128,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3265','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59129,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3265','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59130,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3275','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59131,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3275','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59132,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3285','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59133,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3285','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59134,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3290','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59135,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3290','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59136,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3291','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59137,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3291','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59138,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3315','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59139,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3315','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59140,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3328','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59141,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3328','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59142,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3368','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59143,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3368','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59144,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3405','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59145,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3405','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59146,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3415','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59147,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3415','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59148,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:1526','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59149,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:1526','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59150,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:1586','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59151,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:1586','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59152,'domainapp.modules.txn.dom.Transaction#category','Category(name=A/C to A/C)',NULL,'category',0,'Transaction','statements.Transaction:3489','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
+INSERT INTO "AuditEntry" VALUES(59153,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Transfer)',NULL,'subCategory',0,'Transaction','statements.Transaction:3489','2019-07-19 16:51:21.295000','5c614020-9bc6-49b8-95dd-e07e18af1e3b','admin')
 COMMIT
 /*C1*/SET SCHEMA SYSTEM_LOBS
-INSERT INTO LOB_IDS VALUES(234,1967,0,40)
-ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 235
+INSERT INTO LOB_IDS VALUES(246,4798,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 247
 COMMIT
-DELETE FROM BLOCKS WHERE BLOCK_ADDR=233
-INSERT INTO BLOCKS VALUES(233,1,0)
-INSERT INTO BLOCKS VALUES(234,2147483413,0)
-DELETE FROM BLOCKS WHERE BLOCK_ADDR=233
-INSERT INTO LOBS VALUES(233,1,0,234)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=245
+INSERT INTO BLOCKS VALUES(245,1,0)
+INSERT INTO BLOCKS VALUES(246,2147483401,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=245
+INSERT INTO LOBS VALUES(245,1,0,246)
 COMMIT
-/*C6*/SET SCHEMA "isiscommand"
-INSERT INTO "Command" VALUES('6376a047-7895-4c5b-8046-69912eb9aa86','Selected Transactions: 3 objects\u000aCategory: Foods and Beverages\u000aSub-Category: Dinning\u000a','2019-07-16 21:44:56.989000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',234,NULL,NULL,NULL,NULL,'2019-07-16 21:44:56.979000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1lbWVudG8vPg==','2019-07-16 21:44:56.966000','admin')
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('5c614020-9bc6-49b8-95dd-e07e18af1e3b','Transaction: 22 objects\u000aCategory: A/C to A/C\u000aSub-Category: Transfer\u000a','2019-07-19 16:51:20.924000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',246,NULL,NULL,NULL,NULL,'2019-07-19 16:51:20.882000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:51:20.848000','admin')
 SET SCHEMA SYSTEM_LOBS
-DELETE FROM LOB_IDS WHERE LOB_ID=234
-INSERT INTO LOB_IDS VALUES(234,1967,1,40)
+DELETE FROM LOB_IDS WHERE LOB_ID=246
+INSERT INTO LOB_IDS VALUES(246,4798,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=2577
+INSERT INTO "Transaction" VALUES(2577,550,30,'0131313139367787/CITRUSZOMATOCOM',' 13/01/17  ,0131313139367787/CITRUSZOMATOCOM                                                                                         ,13/01/17 ,        550.00     ,          0.00     ,0000170133136934       ,    145787.95  ','0000170133136934',6,73,'2017-01-13 00:00:00.000000','DEBIT','2019-07-19 16:52:43.786000',1)
+DELETE FROM "Transaction" WHERE "id"=2655
+INSERT INTO "Transaction" VALUES(2655,595,30,'101702001363593/CITRUSZOMATOCOM',' 26/02/17  ,101702001363593/CITRUSZOMATOCOM                                                                                          ,26/02/17 ,        595.00     ,          0.00     ,0000170574353053       ,     48882.26  ','0000170574353053',6,73,'2017-02-26 00:00:00.000000','DEBIT','2019-07-19 16:52:43.788000',1)
+DELETE FROM "Transaction" WHERE "id"=2861
+INSERT INTO "Transaction" VALUES(2861,238,30,'6356340090/PAYUZOMATOMEDIAPVTLT',' 20/08/17  ,6356340090/PAYUZOMATOMEDIAPVTLT                                                                                          ,20/08/17 ,        238.00     ,          0.00     ,0000172320402721       ,    135130.10  ','0000172320402721',6,73,'2017-08-20 00:00:00.000000','DEBIT','2019-07-19 16:52:43.789000',1)
+DELETE FROM "Transaction" WHERE "id"=2891
+INSERT INTO "Transaction" VALUES(2891,165,30,'101709008804464/CITRUSZOMATOCOM',' 19/09/17  ,101709008804464/CITRUSZOMATOCOM                                                                                          ,19/09/17 ,        165.20     ,          0.00     ,0000172620959986       ,    554285.96  ','0000172620959986',6,73,'2017-09-19 00:00:00.000000','DEBIT','2019-07-19 16:52:43.791000',1)
+DELETE FROM "Transaction" WHERE "id"=2893
+INSERT INTO "Transaction" VALUES(2893,566,30,'6423265786/PAYUZOMATOMEDIAPVTLT',' 22/09/17  ,6423265786/PAYUZOMATOMEDIAPVTLT                                                                                          ,22/09/17 ,        566.40     ,          0.00     ,0000172653231949       ,    551720.56  ','0000172653231949',6,73,'2017-09-22 00:00:00.000000','DEBIT','2019-07-19 16:52:43.792000',1)
+DELETE FROM "Transaction" WHERE "id"=3141
+INSERT INTO "Transaction" VALUES(3141,940,30,'KIQXU54EAR5KNP62/PAYUZOMATOMEDIAPVTLT',' 09/06/18  ,KIQXU54EAR5KNP62/PAYUZOMATOMEDIAPVTLT                                                                                    ,09/06/18 ,        940.35     ,          0.00     ,0000181609859303       ,    152257.77  ','0000181609859303',6,73,'2018-06-09 00:00:00.000000','DEBIT','2019-07-19 16:52:43.793000',1)
+DELETE FROM "Transaction" WHERE "id"=3420
+INSERT INTO "Transaction" VALUES(3420,170,30,'LUQXU5UEAZZKHPOS/PAYUZOMATOMEDIAPVTLT',' 23/02/19  ,LUQXU5UEAZZKHPOS/PAYUZOMATOMEDIAPVTLT                                                                                    ,23/02/19 ,        170.00     ,          0.00     ,0000190541243067       ,     15335.61  ','0000190541243067',6,73,'2019-02-23 00:00:00.000000','DEBIT','2019-07-19 16:52:43.793000',1)
+DELETE FROM "Transaction" WHERE "id"=3424
+INSERT INTO "Transaction" VALUES(3424,197,30,'C1PIAWFR61JSD9/RAZPZOMATO',' 27/02/19  ,C1PIAWFR61JSD9/RAZPZOMATO                                                                                                ,27/02/19 ,        197.00     ,          0.00     ,0000190584527202       ,      1390.61  ','0000190584527202',6,73,'2019-02-27 00:00:00.000000','DEBIT','2019-07-19 16:52:43.794000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59154,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:2577','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59155,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:2577','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59156,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:2655','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59157,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:2655','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59158,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:2861','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59159,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:2861','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59160,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:2891','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59161,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:2891','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59162,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:2893','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59163,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:2893','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59164,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:3141','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59165,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:3141','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59166,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:3420','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59167,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:3420','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59168,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:3424','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+INSERT INTO "AuditEntry" VALUES(59169,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:3424','2019-07-19 16:52:43.988000','25179236-8d39-4bc0-910a-9021865da2a4','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(247,2754,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 248
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=246
+INSERT INTO BLOCKS VALUES(246,1,0)
+INSERT INTO BLOCKS VALUES(247,2147483400,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=246
+INSERT INTO LOBS VALUES(246,1,0,247)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('25179236-8d39-4bc0-910a-9021865da2a4','Transaction: 8 objects\u000aCategory: Foods and Beverages\u000aSub-Category: Dinning\u000a','2019-07-19 16:52:43.794000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',247,NULL,NULL,NULL,NULL,'2019-07-19 16:52:43.783000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:52:43.769000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=247
+INSERT INTO LOB_IDS VALUES(247,2754,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=4902
+INSERT INTO "Transaction" VALUES(4902,311,30,'Zomato Order #ZTD18D48F34E99C5E51E','"14/07/2018 13:25:04","Paid For Order","Zomato Order #ZTD18D48F34E99C5E51E","19679146368","","311.45","","","SUCCESS"','19679146368',11,73,'2018-07-14 13:25:04.000000','DEBIT','2019-07-19 16:53:17.227000',1)
+DELETE FROM "Transaction" WHERE "id"=4901
+INSERT INTO "Transaction" VALUES(4901,560,30,'Zomato Order #ZTD182EF26918DF54233','"14/07/2018 13:26:46","Paid For Order","Zomato Order #ZTD182EF26918DF54233","19679168584","","560","","","SUCCESS"','19679168584',11,73,'2018-07-14 13:26:46.000000','DEBIT','2019-07-19 16:53:17.228000',1)
+DELETE FROM "Transaction" WHERE "id"=4899
+INSERT INTO "Transaction" VALUES(4899,742,30,'Zomato Order #ZTD1858E434E4D7B0316','"20/07/2018 20:17:35","Paid For Order","Zomato Order #ZTD1858E434E4D7B0316","19765259830","","741.90","","","SUCCESS"','19765259830',11,73,'2018-07-20 20:17:35.000000','DEBIT','2019-07-19 16:53:17.229000',1)
+DELETE FROM "Transaction" WHERE "id"=4895
+INSERT INTO "Transaction" VALUES(4895,280,30,'Zomato Order #ZTD18B6B6AAA31D316C8','"26/08/2018 21:29:42","Paid For Order","Zomato Order #ZTD18B6B6AAA31D316C8","20262027807","","280.45","","","SUCCESS"','20262027807',11,73,'2018-08-26 21:29:42.000000','DEBIT','2019-07-19 16:53:17.230000',1)
+DELETE FROM "Transaction" WHERE "id"=4885
+INSERT INTO "Transaction" VALUES(4885,315,30,'Zomato Order #ZTD181D57B2C06BA62D8','"18/10/2018 22:23:38","Paid For Order","Zomato Order #ZTD181D57B2C06BA62D8","21039968150","","315","","","SUCCESS"','21039968150',11,73,'2018-10-18 22:23:38.000000','DEBIT','2019-07-19 16:53:17.231000',1)
+DELETE FROM "Transaction" WHERE "id"=4884
+INSERT INTO "Transaction" VALUES(4884,636,30,'Zomato Order #ZTD18757248822F4C30A','"22/10/2018 22:19:16","Paid For Order","Zomato Order #ZTD18757248822F4C30A","21097510604","","635.90","","","SUCCESS"','21097510604',11,73,'2018-10-22 22:19:16.000000','DEBIT','2019-07-19 16:53:17.232000',1)
+DELETE FROM "Transaction" WHERE "id"=4880
+INSERT INTO "Transaction" VALUES(4880,542,30,'Zomato Order #ZTD18C5B0F8A2E3A9BC1','"04/11/2018 21:20:36","Paid For Order","Zomato Order #ZTD18C5B0F8A2E3A9BC1","21296848798","","542.40","","","SUCCESS"','21296848798',11,73,'2018-11-04 21:20:36.000000','DEBIT','2019-07-19 16:53:17.232000',1)
+DELETE FROM "Transaction" WHERE "id"=4879
+INSERT INTO "Transaction" VALUES(4879,20,30,'Zomato Order #ZTZTIP18CAAFB027E064','"04/11/2018 21:53:03","Paid For Order","Zomato Order #ZTZTIP18CAAFB027E064","21297312708","","20","","","SUCCESS"','21297312708',11,73,'2018-11-04 21:53:03.000000','DEBIT','2019-07-19 16:53:17.234000',1)
+DELETE FROM "Transaction" WHERE "id"=4878
+INSERT INTO "Transaction" VALUES(4878,217,30,'Zomato Order #ZTD18A5669DCB092AEFB','"05/11/2018 20:30:39","Paid For Order","Zomato Order #ZTD18A5669DCB092AEFB","21311038866","","217","","","SUCCESS"','21311038866',11,73,'2018-11-05 20:30:39.000000','DEBIT','2019-07-19 16:53:17.235000',1)
+DELETE FROM "Transaction" WHERE "id"=4874
+INSERT INTO "Transaction" VALUES(4874,585,30,'Zomato Order #ZTD18BFB31CA6E182D09','"11/11/2018 21:27:15","Paid For Order","Zomato Order #ZTD18BFB31CA6E182D09","21391975420","","585.45","","","SUCCESS"','21391975420',11,73,'2018-11-11 21:27:15.000000','DEBIT','2019-07-19 16:53:17.235000',1)
+DELETE FROM "Transaction" WHERE "id"=4869
+INSERT INTO "Transaction" VALUES(4869,230,30,'Zomato Order #ZTD183E49583F501F5C8','"01/12/2018 21:44:49","Paid For Order","Zomato Order #ZTD183E49583F501F5C8","21703311086","","230","","","SUCCESS"','21703311086',11,73,'2018-12-01 21:44:49.000000','DEBIT','2019-07-19 16:53:17.236000',1)
+DELETE FROM "Transaction" WHERE "id"=4864
+INSERT INTO "Transaction" VALUES(4864,532,30,'Zomato Order #ZTD18E1B68916313B050','"10/12/2018 22:38:39","Paid For Order","Zomato Order #ZTD18E1B68916313B050","21848616596","","531.90","","","SUCCESS"','21848616596',11,73,'2018-12-10 22:38:39.000000','DEBIT','2019-07-19 16:53:17.237000',1)
+DELETE FROM "Transaction" WHERE "id"=4863
+INSERT INTO "Transaction" VALUES(4863,186,30,'Zomato Order #ZTD188952239CCEFDD03','"31/12/2018 13:04:19","Paid For Order","Zomato Order #ZTD188952239CCEFDD03","22193900118","","186","","","SUCCESS"','22193900118',11,73,'2018-12-31 13:04:19.000000','DEBIT','2019-07-19 16:53:17.238000',1)
+DELETE FROM "Transaction" WHERE "id"=4858
+INSERT INTO "Transaction" VALUES(4858,587,30,'Zomato Order #ZTD19FDF421EAD449860','"12/01/2019 20:49:29","Paid For Order","Zomato Order #ZTD19FDF421EAD449860","22408083755","","587","","","SUCCESS"','22408083755',11,73,'2019-01-12 20:49:29.000000','DEBIT','2019-07-19 16:53:17.239000',1)
+DELETE FROM "Transaction" WHERE "id"=4840
+INSERT INTO "Transaction" VALUES(4840,550,30,'Zomato Order #ZTD1935C45B0B2881BC0','"20/04/2019 13:27:53","Paid For Order","Zomato Order #ZTD1935C45B0B2881BC0","24091723166","","550.25","","","SUCCESS"','24091723166',11,73,'2019-04-20 13:27:53.000000','DEBIT','2019-07-19 16:53:17.239000',1)
+DELETE FROM "Transaction" WHERE "id"=4834
+INSERT INTO "Transaction" VALUES(4834,261,30,'Zomato Order #ZTD19300665B65AD0E41','"21/05/2019 21:19:02","Paid For Order","Zomato Order #ZTD19300665B65AD0E41","24619867630","","261.45","","","SUCCESS"','24619867630',11,73,'2019-05-21 21:19:02.000000','DEBIT','2019-07-19 16:53:17.240000',1)
+DELETE FROM "Transaction" WHERE "id"=4833
+INSERT INTO "Transaction" VALUES(4833,10,30,'Zomato Order #ZTZTIP19F4D8FE9720AF','"21/05/2019 22:01:54","Paid For Order","Zomato Order #ZTZTIP19F4D8FE9720AF","24620584674","","10","","","SUCCESS"','24620584674',11,73,'2019-05-21 22:01:54.000000','DEBIT','2019-07-19 16:53:17.241000',1)
+DELETE FROM "Transaction" WHERE "id"=4825
+INSERT INTO "Transaction" VALUES(4825,324,30,'Zomato Order #ZTD-19-E1A612258CDF0','"02/06/2019 11:20:00","Paid For Order","Zomato Order #ZTD-19-E1A612258CDF0","24795770739","","324","","","SUCCESS"','24795770739',11,73,'2019-06-02 11:20:00.000000','DEBIT','2019-07-19 16:53:17.242000',1)
+DELETE FROM "Transaction" WHERE "id"=4821
+INSERT INTO "Transaction" VALUES(4821,313,30,'Zomato Order #ZTD-19-BE4C3ED4957C7','"09/06/2019 20:52:54","Paid For Order","Zomato Order #ZTD-19-BE4C3ED4957C7","24912853902","","313.45","","","SUCCESS"','24912853902',11,73,'2019-06-09 20:52:54.000000','DEBIT','2019-07-19 16:53:17.243000',1)
+DELETE FROM "Transaction" WHERE "id"=4820
+INSERT INTO "Transaction" VALUES(4820,738,30,'Zomato Order #ZTD-19-DF1A4EDE868C4','"09/06/2019 22:40:05","Paid For Order","Zomato Order #ZTD-19-DF1A4EDE868C4","24914309920","","737.65","","","SUCCESS"','24914309920',11,73,'2019-06-09 22:40:05.000000','DEBIT','2019-07-19 16:53:17.244000',1)
+DELETE FROM "Transaction" WHERE "id"=4815
+INSERT INTO "Transaction" VALUES(4815,145,30,'Zomato Order #ZTD-19-AFDA2823E54A3','"16/06/2019 13:35:11","Paid For Order","Zomato Order #ZTD-19-AFDA2823E54A3","25012419723","","144.75","","","SUCCESS"','25012419723',11,73,'2019-06-16 13:35:11.000000','DEBIT','2019-07-19 16:53:17.245000',1)
+DELETE FROM "Transaction" WHERE "id"=4814
+INSERT INTO "Transaction" VALUES(4814,201,30,'Zomato Order #ZTD-19-F71496D5EC995','"16/06/2019 21:24:43","Paid For Order","Zomato Order #ZTD-19-F71496D5EC995","25019419416","","201.50","","","SUCCESS"','25019419416',11,73,'2019-06-16 21:24:43.000000','DEBIT','2019-07-19 16:53:17.245000',1)
+DELETE FROM "Transaction" WHERE "id"=4809
+INSERT INTO "Transaction" VALUES(4809,223,30,'Zomato Order #ZTD-19-2CC4CC6865733','"29/06/2019 13:59:30","Paid For Order","Zomato Order #ZTD-19-2CC4CC6865733","25207881135","","223.50","","","SUCCESS"','25207881135',11,73,'2019-06-29 13:59:30.000000','DEBIT','2019-07-19 16:53:17.246000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59170,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4902','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59171,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4902','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59172,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4901','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59173,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4901','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59174,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4899','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59175,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4899','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59176,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4895','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59177,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4895','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59178,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4885','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59179,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4885','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59180,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4884','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59181,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4884','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59182,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4880','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59183,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4880','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59184,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4879','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59185,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4879','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59186,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4878','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59187,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4878','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59188,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4874','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59189,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4874','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59190,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4869','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59191,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4869','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59192,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4864','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59193,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4864','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59194,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4863','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59195,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4863','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59196,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4858','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59197,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4858','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59198,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4840','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59199,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4840','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59200,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4834','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59201,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4834','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59202,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4833','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59203,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4833','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59204,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4825','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59205,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4825','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59206,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4821','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59207,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4821','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59208,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4820','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59209,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4820','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59210,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4815','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59211,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4815','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59212,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4814','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59213,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4814','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59214,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:4809','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+INSERT INTO "AuditEntry" VALUES(59215,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:4809','2019-07-19 16:53:17.536000','5b2906b7-e925-46ca-8144-c2d5afefc6c4','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(248,4944,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 249
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=247
+INSERT INTO BLOCKS VALUES(247,1,0)
+INSERT INTO BLOCKS VALUES(248,2147483399,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=247
+INSERT INTO LOBS VALUES(247,1,0,248)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('5b2906b7-e925-46ca-8144-c2d5afefc6c4','Transaction: 23 objects\u000aCategory: Foods and Beverages\u000aSub-Category: Dinning\u000a','2019-07-19 16:53:17.246000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',248,NULL,NULL,NULL,NULL,'2019-07-19 16:53:17.224000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:53:17.200000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=248
+INSERT INTO LOB_IDS VALUES(248,4944,1,40)
+COMMIT
+/*C18*/SET SCHEMA "isissessionlogger"
+DELETE FROM "SessionLogEntry" WHERE "sessionId"='2114399612'
+INSERT INTO "SessionLogEntry" VALUES('2114399612',NULL,'2019-07-19 16:44:29.456000','2019-07-19 16:53:44.803000','admin')
+COMMIT
+DELETE FROM "SessionLogEntry" WHERE "sessionId"='2114399612'
+INSERT INTO "SessionLogEntry" VALUES('2114399612','USER','2019-07-19 16:44:29.456000','2019-07-19 16:53:44.803000','admin')
+COMMIT
+/*C20*/SET SCHEMA "isissessionlogger"
+INSERT INTO "SessionLogEntry" VALUES('1738528666',NULL,'2019-07-19 16:53:49.126000',NULL,'admin')
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=615
+INSERT INTO "Transaction" VALUES(615,600,30,'RELIANCE MEDIA WORKS LINAVI MUMBAI','31/07/2015 RELIANCE MEDIA WORKS LINAVI MUMBAI 600.00',NULL,2,73,'2015-07-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.045000',1)
+DELETE FROM "Transaction" WHERE "id"=621
+INSERT INTO "Transaction" VALUES(621,599,30,'RELIANCE TRENDS        NAVI MUMBAI','15/08/2015 RELIANCE TRENDS        NAVI MUMBAI 599.00',NULL,2,73,'2015-08-15 00:00:00.000000','DEBIT','2019-07-19 16:54:48.046000',1)
+DELETE FROM "Transaction" WHERE "id"=635
+INSERT INTO "Transaction" VALUES(635,211,30,'R MAYAR IRANI-BPCL       THANE','23/08/2015 R MAYAR IRANI-BPCL       THANE 211.40',NULL,2,73,'2015-08-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.047000',1)
+DELETE FROM "Transaction" WHERE "id"=643
+INSERT INTO "Transaction" VALUES(643,10707,30,'LUGGAGE PLANET           MUMBAI','12/09/2015 LUGGAGE PLANET           MUMBAI 10,707.00',NULL,2,73,'2015-09-12 00:00:00.000000','DEBIT','2019-07-19 16:54:48.047000',1)
+DELETE FROM "Transaction" WHERE "id"=660
+INSERT INTO "Transaction" VALUES(660,2232,30,'H & M 208                PARIS EUR  29.99','26/09/2015 H & M 208                PARIS EUR  29.99 2,232.02',NULL,2,73,'2015-09-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.048000',1)
+DELETE FROM "Transaction" WHERE "id"=662
+INSERT INTO "Transaction" VALUES(662,300,30,'MILAN THE SHRINGAR       NAVI MUMBA','20/12/2015 MILAN THE SHRINGAR       NAVI MUMBA 300.00',NULL,3,73,'2015-12-20 00:00:00.000000','DEBIT','2019-07-19 16:54:48.049000',1)
+DELETE FROM "Transaction" WHERE "id"=663
+INSERT INTO "Transaction" VALUES(663,1730,30,'ROYAL RUMBLE             MUMBAI','25/12/2015 ROYAL RUMBLE             MUMBAI 1,730.00',NULL,3,73,'2015-12-25 00:00:00.000000','DEBIT','2019-07-19 16:54:48.050000',1)
+DELETE FROM "Transaction" WHERE "id"=664
+INSERT INTO "Transaction" VALUES(664,1263,30,'RAJWADI ART JEWELLERY  VALSAD','26/12/2015 RAJWADI ART JEWELLERY  VALSAD 1,263.00',NULL,3,73,'2015-12-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.051000',1)
+DELETE FROM "Transaction" WHERE "id"=666
+INSERT INTO "Transaction" VALUES(666,2795,30,'M/S SANNARI NX           VALSAD','26/12/2015 M/S SANNARI NX           VALSAD 2,795.00',NULL,3,73,'2015-12-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.051000',1)
+DELETE FROM "Transaction" WHERE "id"=667
+INSERT INTO "Transaction" VALUES(667,1234,30,'RAJWADI ART JEWELLERY  VALSAD','30/12/2015 RAJWADI ART JEWELLERY  VALSAD 1,234.00',NULL,3,73,'2015-12-30 00:00:00.000000','DEBIT','2019-07-19 16:54:48.052000',1)
+DELETE FROM "Transaction" WHERE "id"=668
+INSERT INTO "Transaction" VALUES(668,130,30,'VENKYS XPRS              NAVI MUMBA','06/01/2016 VENKYS XPRS              NAVI MUMBA 130.00',NULL,3,73,'2016-01-06 00:00:00.000000','DEBIT','2019-07-19 16:54:48.053000',1)
+DELETE FROM "Transaction" WHERE "id"=681
+INSERT INTO "Transaction" VALUES(681,1596,30,'D MART                   NAVI MUMBA','18/12/2016 D MART                   NAVI MUMBA 1,596.12',NULL,3,73,'2016-12-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.054000',1)
+DELETE FROM "Transaction" WHERE "id"=684
+INSERT INTO "Transaction" VALUES(684,799,30,'WESTSIDE               MUMBAI','06/01/2017 WESTSIDE               MUMBAI 799.00',NULL,3,73,'2017-01-06 00:00:00.000000','DEBIT','2019-07-19 16:54:48.054000',1)
+DELETE FROM "Transaction" WHERE "id"=687
+INSERT INTO "Transaction" VALUES(687,560,30,'CHERRY THE FAMILY DININTHANE','08/01/2017 CHERRY THE FAMILY DININTHANE 560.00',NULL,3,73,'2017-01-08 00:00:00.000000','DEBIT','2019-07-19 16:54:48.055000',1)
+DELETE FROM "Transaction" WHERE "id"=688
+INSERT INTO "Transaction" VALUES(688,582,30,'SRA KITCHEN              Mumbai','14/01/2017 SRA KITCHEN              Mumbai 582.00',NULL,3,73,'2017-01-14 00:00:00.000000','DEBIT','2019-07-19 16:54:48.056000',1)
+DELETE FROM "Transaction" WHERE "id"=701
+INSERT INTO "Transaction" VALUES(701,3,30,'KK CESS','18/01/2017 KK CESS 3.50',NULL,3,73,'2017-01-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.057000',1)
+DELETE FROM "Transaction" WHERE "id"=708
+INSERT INTO "Transaction" VALUES(708,1250,30,'HINDMATA COLLECTION      PANVEL','23/12/2017 HINDMATA COLLECTION      PANVEL 1,250.00',NULL,3,73,'2017-12-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.057000',1)
+DELETE FROM "Transaction" WHERE "id"=709
+INSERT INTO "Transaction" VALUES(709,650,30,'COTTON KING            NAVI MUMBAI','23/12/2017 COTTON KING            NAVI MUMBAI 650.00',NULL,3,73,'2017-12-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.058000',1)
+DELETE FROM "Transaction" WHERE "id"=714
+INSERT INTO "Transaction" VALUES(714,220,30,'ORANGE HOTELS AND REST   NERUL','31/12/2017 ORANGE HOTELS AND REST   NERUL 220.00',NULL,3,73,'2017-12-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.059000',1)
+DELETE FROM "Transaction" WHERE "id"=715
+INSERT INTO "Transaction" VALUES(715,300,30,'THE SOUP BOWL            NAVI MUMBA','31/12/2017 THE SOUP BOWL            NAVI MUMBA 300.00',NULL,3,73,'2017-12-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.060000',1)
+DELETE FROM "Transaction" WHERE "id"=718
+INSERT INTO "Transaction" VALUES(718,541,30,'LUNG FUNG              NAVI MUMBAI','31/12/2017 LUNG FUNG              NAVI MUMBAI 541.00',NULL,3,73,'2017-12-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.060000',1)
+DELETE FROM "Transaction" WHERE "id"=719
+INSERT INTO "Transaction" VALUES(719,279,30,'PATANJALI MEGA STORE     NAVI MUMBA','31/12/2017 PATANJALI MEGA STORE     NAVI MUMBA 279.00',NULL,3,73,'2017-12-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.061000',1)
+DELETE FROM "Transaction" WHERE "id"=728
+INSERT INTO "Transaction" VALUES(728,1100,30,'HINDMATA COLLECTION      PANVEL','13/01/2018 HINDMATA COLLECTION      PANVEL 1,100.00',NULL,3,73,'2018-01-13 00:00:00.000000','DEBIT','2019-07-19 16:54:48.062000',1)
+DELETE FROM "Transaction" WHERE "id"=729
+INSERT INTO "Transaction" VALUES(729,1164,30,'BEAUTIFUL              NAVI MUMBAI','13/01/2018 BEAUTIFUL              NAVI MUMBAI 1,164.00',NULL,3,73,'2018-01-13 00:00:00.000000','DEBIT','2019-07-19 16:54:48.063000',1)
+DELETE FROM "Transaction" WHERE "id"=735
+INSERT INTO "Transaction" VALUES(735,4304,30,'DAILY BAZAR              MUMBAI','24/01/2016 DAILY BAZAR              MUMBAI 4,304.00',NULL,3,73,'2016-01-24 00:00:00.000000','DEBIT','2019-07-19 16:54:48.064000',1)
+DELETE FROM "Transaction" WHERE "id"=738
+INSERT INTO "Transaction" VALUES(738,600,30,'INOX LEISURE LIMITED K   MUMBAI','31/01/2016 INOX LEISURE LIMITED K   MUMBAI 600.00',NULL,3,73,'2016-01-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.066000',1)
+DELETE FROM "Transaction" WHERE "id"=742
+INSERT INTO "Transaction" VALUES(742,234,30,'GLOBAL CHEMIST           MUMBAI','15/02/2016 GLOBAL CHEMIST           MUMBAI 234.00',NULL,3,73,'2016-02-15 00:00:00.000000','DEBIT','2019-07-19 16:54:48.067000',1)
+DELETE FROM "Transaction" WHERE "id"=748
+INSERT INTO "Transaction" VALUES(748,11,30,'POS 2                    MUMBAI','17/12/2016 POS 2                    MUMBAI 11.50',NULL,3,73,'2016-12-17 00:00:00.000000','DEBIT','2019-07-19 16:54:48.068000',1)
+DELETE FROM "Transaction" WHERE "id"=750
+INSERT INTO "Transaction" VALUES(750,1800,30,'TATA SKY                 MUMBAI','22/01/2017 TATA SKY                 MUMBAI 1,800.00',NULL,3,73,'2017-01-22 00:00:00.000000','DEBIT','2019-07-19 16:54:48.070000',1)
+DELETE FROM "Transaction" WHERE "id"=752
+INSERT INTO "Transaction" VALUES(752,1066,30,'PH SAPPHIRE INORBITMALLNAVI MUMBAI','26/01/2017 PH SAPPHIRE INORBITMALLNAVI MUMBAI 1,066.00',NULL,3,73,'2017-01-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.071000',1)
+DELETE FROM "Transaction" WHERE "id"=753
+INSERT INTO "Transaction" VALUES(753,112,30,'Hilton cold Storage      Mumbai','28/01/2017 Hilton cold Storage      Mumbai 112.00',NULL,3,73,'2017-01-28 00:00:00.000000','DEBIT','2019-07-19 16:54:48.072000',1)
+DELETE FROM "Transaction" WHERE "id"=757
+INSERT INTO "Transaction" VALUES(757,1470,30,'MASAFI                 NAVI MUMBAI','04/02/2017 MASAFI                 NAVI MUMBAI 1,470.00',NULL,3,73,'2017-02-04 00:00:00.000000','DEBIT','2019-07-19 16:54:48.073000',1)
+DELETE FROM "Transaction" WHERE "id"=760
+INSERT INTO "Transaction" VALUES(760,19,30,'POS 2                    MUMBAI','05/02/2017 POS 2                    MUMBAI 18.85 Cr',NULL,3,73,'2017-02-05 00:00:00.000000','CREDIT','2019-07-19 16:54:48.074000',1)
+DELETE FROM "Transaction" WHERE "id"=767
+INSERT INTO "Transaction" VALUES(767,4,30,'KK CESS','18/02/2017 KK CESS 3.73',NULL,3,73,'2017-02-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.075000',1)
+DELETE FROM "Transaction" WHERE "id"=781
+INSERT INTO "Transaction" VALUES(781,744,30,'Future Retail Ltd        THANE','20/01/2018 Future Retail Ltd        THANE 744.00',NULL,3,73,'2018-01-20 00:00:00.000000','DEBIT','2019-07-19 16:54:48.076000',1)
+DELETE FROM "Transaction" WHERE "id"=785
+INSERT INTO "Transaction" VALUES(785,294,30,'NEW SHIV SAGAR RESTAUR   NAVI MUMBA','23/01/2018 NEW SHIV SAGAR RESTAUR   NAVI MUMBA 294.00',NULL,3,73,'2018-01-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.077000',1)
+DELETE FROM "Transaction" WHERE "id"=788
+INSERT INTO "Transaction" VALUES(788,350,30,'PRO HEALTH               NAVI MUMBA','27/01/2018 PRO HEALTH               NAVI MUMBA 350.00',NULL,3,73,'2018-01-27 00:00:00.000000','DEBIT','2019-07-19 16:54:48.077000',1)
+DELETE FROM "Transaction" WHERE "id"=790
+INSERT INTO "Transaction" VALUES(790,21510,30,'PAYU MONEY             GURGAON','31/01/2018 PAYU MONEY             GURGAON 21,510.00',NULL,3,73,'2018-01-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.078000',1)
+DELETE FROM "Transaction" WHERE "id"=797
+INSERT INTO "Transaction" VALUES(797,2450,30,'HINDMATA COLLECTION      PANVEL','10/02/2018 HINDMATA COLLECTION      PANVEL 2,450.00',NULL,3,73,'2018-02-10 00:00:00.000000','DEBIT','2019-07-19 16:54:48.079000',1)
+DELETE FROM "Transaction" WHERE "id"=800
+INSERT INTO "Transaction" VALUES(800,3035,30,'RAHIL AUTO SERVICES    THANE','11/02/2018 RAHIL AUTO SERVICES    THANE 3,035.40',NULL,3,73,'2018-02-11 00:00:00.000000','DEBIT','2019-07-19 16:54:48.080000',1)
+DELETE FROM "Transaction" WHERE "id"=801
+INSERT INTO "Transaction" VALUES(801,22,30,'RAHIL AUTO SERVICES    THANE','11/02/2018 RAHIL AUTO SERVICES    THANE 22.50 Cr',NULL,3,73,'2018-02-11 00:00:00.000000','CREDIT','2019-07-19 16:54:48.081000',1)
+DELETE FROM "Transaction" WHERE "id"=802
+INSERT INTO "Transaction" VALUES(802,399,30,'Front Street The Baker   MUMBAI','12/02/2018 Front Street The Baker   MUMBAI 399.00',NULL,3,73,'2018-02-12 00:00:00.000000','DEBIT','2019-07-19 16:54:48.082000',1)
+DELETE FROM "Transaction" WHERE "id"=815
+INSERT INTO "Transaction" VALUES(815,399,30,'RELIANCE TRENDS        NAVI MUMBAI','28/02/2016 RELIANCE TRENDS        NAVI MUMBAI 399.00',NULL,3,73,'2016-02-28 00:00:00.000000','DEBIT','2019-07-19 16:54:48.083000',1)
+DELETE FROM "Transaction" WHERE "id"=818
+INSERT INTO "Transaction" VALUES(818,2095,30,'ADISOH TRENDS          NAVI MUMBAI','05/03/2016 ADISOH TRENDS          NAVI MUMBAI 2,095.00',NULL,3,73,'2016-03-05 00:00:00.000000','DEBIT','2019-07-19 16:54:48.084000',1)
+DELETE FROM "Transaction" WHERE "id"=819
+INSERT INTO "Transaction" VALUES(819,597,30,'VARAD ENTERPRISES        THANE','05/03/2016 VARAD ENTERPRISES        THANE 597.00',NULL,3,73,'2016-03-05 00:00:00.000000','DEBIT','2019-07-19 16:54:48.085000',1)
+DELETE FROM "Transaction" WHERE "id"=820
+INSERT INTO "Transaction" VALUES(820,1785,30,'CRAZY CRAB             THANE','11/03/2016 CRAZY CRAB             THANE 1,785.00',NULL,3,73,'2016-03-11 00:00:00.000000','DEBIT','2019-07-19 16:54:48.086000',1)
+DELETE FROM "Transaction" WHERE "id"=823
+INSERT INTO "Transaction" VALUES(823,140,30,'GLOBAL CHEMIST           MUMBAI','15/03/2016 GLOBAL CHEMIST           MUMBAI 140.00',NULL,3,73,'2016-03-15 00:00:00.000000','DEBIT','2019-07-19 16:54:48.087000',1)
+DELETE FROM "Transaction" WHERE "id"=828
+INSERT INTO "Transaction" VALUES(828,302,30,'Billed Finance Charges \u2013 Retail','18/03/2016 Billed Finance Charges \u2013 Retail 301.79',NULL,3,73,'2016-03-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.088000',1)
+DELETE FROM "Transaction" WHERE "id"=833
+INSERT INTO "Transaction" VALUES(833,2047,30,'MAX                    PORVORIM','21/02/2017 MAX                    PORVORIM 2,047.00',NULL,3,73,'2017-02-21 00:00:00.000000','DEBIT','2019-07-19 16:54:48.089000',1)
+DELETE FROM "Transaction" WHERE "id"=834
+INSERT INTO "Transaction" VALUES(834,570,30,'NEW SHIV SAGAR RESTAUR   NAVI MUMBA','23/02/2017 NEW SHIV SAGAR RESTAUR   NAVI MUMBA 570.00',NULL,3,73,'2017-02-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.090000',1)
+DELETE FROM "Transaction" WHERE "id"=837
+INSERT INTO "Transaction" VALUES(837,330,30,'COOKIE MAN             NAVI MUMBAI','13/03/2017 COOKIE MAN             NAVI MUMBAI 330.00',NULL,3,73,'2017-03-13 00:00:00.000000','DEBIT','2019-07-19 16:54:48.091000',1)
+DELETE FROM "Transaction" WHERE "id"=838
+INSERT INTO "Transaction" VALUES(838,1222,30,'ZAFFRAN VASHI INORBIT    NAVI MUMBA','13/03/2017 ZAFFRAN VASHI INORBIT    NAVI MUMBA 1,222.00',NULL,3,73,'2017-03-13 00:00:00.000000','DEBIT','2019-07-19 16:54:48.092000',1)
+DELETE FROM "Transaction" WHERE "id"=843
+INSERT INTO "Transaction" VALUES(843,3,30,'KK CESS','18/03/2017 KK CESS 2.69',NULL,3,73,'2017-03-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.093000',1)
+DELETE FROM "Transaction" WHERE "id"=854
+INSERT INTO "Transaction" VALUES(854,3500,30,'LOTUS IMAGING CLINICS    MUMBAI','24/02/2018 LOTUS IMAGING CLINICS    MUMBAI 3,500.00',NULL,3,73,'2018-02-24 00:00:00.000000','DEBIT','2019-07-19 16:54:48.094000',1)
+DELETE FROM "Transaction" WHERE "id"=863
+INSERT INTO "Transaction" VALUES(863,3299,30,'INDEPENDENCE BREWING C   MUMBAI','09/03/2018 INDEPENDENCE BREWING C   MUMBAI 3,299.00',NULL,3,73,'2018-03-09 00:00:00.000000','DEBIT','2019-07-19 16:54:48.095000',1)
+DELETE FROM "Transaction" WHERE "id"=868
+INSERT INTO "Transaction" VALUES(868,704,30,'BEAUTIFUL              NAVI MUMBAI','17/03/2018 BEAUTIFUL              NAVI MUMBAI 704.00',NULL,3,73,'2018-03-17 00:00:00.000000','DEBIT','2019-07-19 16:54:48.096000',1)
+DELETE FROM "Transaction" WHERE "id"=875
+INSERT INTO "Transaction" VALUES(875,5963,30,'MYSTICA RESORT           PUNE','26/03/2016 MYSTICA RESORT           PUNE 5,963.00',NULL,3,73,'2016-03-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.097000',1)
+DELETE FROM "Transaction" WHERE "id"=876
+INSERT INTO "Transaction" VALUES(876,190,30,'ONE STOP               NAVI MUMBAI','26/03/2016 ONE STOP               NAVI MUMBAI 190.00',NULL,3,73,'2016-03-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.098000',1)
+DELETE FROM "Transaction" WHERE "id"=879
+INSERT INTO "Transaction" VALUES(879,2576,30,'TIKONA DIGITAL           WWW.PAYNIM','17/04/2016 TIKONA DIGITAL           WWW.PAYNIM 2,576.00',NULL,3,73,'2016-04-17 00:00:00.000000','DEBIT','2019-07-19 16:54:48.099000',1)
+DELETE FROM "Transaction" WHERE "id"=888
+INSERT INTO "Transaction" VALUES(888,750,30,'NEW SHIV SAGAR RESTAUR   NAVI MUMBA','26/03/2017 NEW SHIV SAGAR RESTAUR   NAVI MUMBA 750.00',NULL,3,73,'2017-03-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.100000',1)
+DELETE FROM "Transaction" WHERE "id"=889
+INSERT INTO "Transaction" VALUES(889,1325,30,'Vipasha Wines            MUMBAI','26/03/2017 Vipasha Wines            MUMBAI 1,325.00',NULL,3,73,'2017-03-26 00:00:00.000000','DEBIT','2019-07-19 16:54:48.101000',1)
+DELETE FROM "Transaction" WHERE "id"=891
+INSERT INTO "Transaction" VALUES(891,10300,30,'TOTAL DENTAL CARE PRIVANAVI MUMBAI','30/03/2017 TOTAL DENTAL CARE PRIVANAVI MUMBAI 10,300.00',NULL,3,73,'2017-03-30 00:00:00.000000','DEBIT','2019-07-19 16:54:48.102000',1)
+DELETE FROM "Transaction" WHERE "id"=893
+INSERT INTO "Transaction" VALUES(893,20,30,'POS 2                    MUMBAI','30/03/2017 POS 2                    MUMBAI 20.42 Cr',NULL,3,73,'2017-03-30 00:00:00.000000','CREDIT','2019-07-19 16:54:48.103000',1)
+DELETE FROM "Transaction" WHERE "id"=895
+INSERT INTO "Transaction" VALUES(895,760,30,'CRAZY WORLD NX           MUMBAI','01/04/2017 CRAZY WORLD NX           MUMBAI 760.00',NULL,3,73,'2017-04-01 00:00:00.000000','DEBIT','2019-07-19 16:54:48.104000',1)
+DELETE FROM "Transaction" WHERE "id"=896
+INSERT INTO "Transaction" VALUES(896,390,30,'COOKIE MAN             NAVI MUMBAI','02/04/2017 COOKIE MAN             NAVI MUMBAI 390.00',NULL,3,73,'2017-04-02 00:00:00.000000','DEBIT','2019-07-19 16:54:48.105000',1)
+DELETE FROM "Transaction" WHERE "id"=903
+INSERT INTO "Transaction" VALUES(903,1185,30,'MASAFI                 NAVI MUMBAI','08/04/2017 MASAFI                 NAVI MUMBAI 1,185.00',NULL,3,73,'2017-04-08 00:00:00.000000','DEBIT','2019-07-19 16:54:48.106000',1)
+DELETE FROM "Transaction" WHERE "id"=910
+INSERT INTO "Transaction" VALUES(910,840,30,'VEENA NX                 SURAT','15/04/2017 VEENA NX                 SURAT 840.00',NULL,3,73,'2017-04-15 00:00:00.000000','DEBIT','2019-07-19 16:54:48.108000',1)
+DELETE FROM "Transaction" WHERE "id"=913
+INSERT INTO "Transaction" VALUES(913,0,30,'PSW EXCESS DEBIT OFFUS-FEB TO MAR 2','17/04/2017 PSW EXCESS DEBIT OFFUS-FEB TO MAR 2 0.26',NULL,3,73,'2017-04-17 00:00:00.000000','DEBIT','2019-07-19 16:54:48.109000',1)
+DELETE FROM "Transaction" WHERE "id"=922
+INSERT INTO "Transaction" VALUES(922,3,30,'KK CESS','18/04/2017 KK CESS 3.30',NULL,3,73,'2017-04-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.110000',1)
+DELETE FROM "Transaction" WHERE "id"=929
+INSERT INTO "Transaction" VALUES(929,250,30,'SUPER ENTERPRISES      NAVI MUMBAI','24/03/2018 SUPER ENTERPRISES      NAVI MUMBAI 250.00',NULL,3,73,'2018-03-24 00:00:00.000000','DEBIT','2019-07-19 16:54:48.111000',1)
+DELETE FROM "Transaction" WHERE "id"=930
+INSERT INTO "Transaction" VALUES(930,105,30,'SUPER ENTERPRISES      NAVI MUMBAI','24/03/2018 SUPER ENTERPRISES      NAVI MUMBAI 105.00',NULL,3,73,'2018-03-24 00:00:00.000000','DEBIT','2019-07-19 16:54:48.112000',1)
+DELETE FROM "Transaction" WHERE "id"=942
+INSERT INTO "Transaction" VALUES(942,615,30,'CAKEWALK CREATIONS       NAVI MUMBA','07/04/2018 CAKEWALK CREATIONS       NAVI MUMBA 615.00',NULL,3,73,'2018-04-07 00:00:00.000000','DEBIT','2019-07-19 16:54:48.112000',1)
+DELETE FROM "Transaction" WHERE "id"=944
+INSERT INTO "Transaction" VALUES(944,630,30,'COSMIC JOY               NAVI MUMBA','08/04/2018 COSMIC JOY               NAVI MUMBA 630.00',NULL,3,73,'2018-04-08 00:00:00.000000','DEBIT','2019-07-19 16:54:48.113000',1)
+DELETE FROM "Transaction" WHERE "id"=950
+INSERT INTO "Transaction" VALUES(950,436,30,'LUNG FUNG              NAVI MUMBAI','14/04/2018 LUNG FUNG              NAVI MUMBAI 436.00',NULL,3,73,'2018-04-14 00:00:00.000000','DEBIT','2019-07-19 16:54:48.114000',1)
+DELETE FROM "Transaction" WHERE "id"=951
+INSERT INTO "Transaction" VALUES(951,2598,30,'RELIANCE LIFESTYLE HOLDNAVI MUMBAI','14/04/2018 RELIANCE LIFESTYLE HOLDNAVI MUMBAI 2,598.00',NULL,3,73,'2018-04-14 00:00:00.000000','DEBIT','2019-07-19 16:54:48.115000',1)
+DELETE FROM "Transaction" WHERE "id"=959
+INSERT INTO "Transaction" VALUES(959,2550,30,'ONE STOP               NAVI MUMBAI','23/04/2016 ONE STOP               NAVI MUMBAI 2,550.00',NULL,3,73,'2016-04-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.116000',1)
+DELETE FROM "Transaction" WHERE "id"=960
+INSERT INTO "Transaction" VALUES(960,1594,30,'DMART AVENUE SUPERMARTSPANVEL','24/04/2016 DMART AVENUE SUPERMARTSPANVEL 1,594.10',NULL,3,73,'2016-04-24 00:00:00.000000','DEBIT','2019-07-19 16:54:48.117000',1)
+DELETE FROM "Transaction" WHERE "id"=963
+INSERT INTO "Transaction" VALUES(963,1000,30,'MACROMAN               NAVI MUMBAI','30/04/2016 MACROMAN               NAVI MUMBAI 1,000.00',NULL,3,73,'2016-04-30 00:00:00.000000','DEBIT','2019-07-19 16:54:48.118000',1)
+DELETE FROM "Transaction" WHERE "id"=964
+INSERT INTO "Transaction" VALUES(964,1000,30,'UNITED MARINE          NAVI MUMBAI','30/04/2016 UNITED MARINE          NAVI MUMBAI 1,000.00',NULL,3,73,'2016-04-30 00:00:00.000000','DEBIT','2019-07-19 16:54:48.119000',1)
+DELETE FROM "Transaction" WHERE "id"=965
+INSERT INTO "Transaction" VALUES(965,1999,30,'PAYLESS SHOESOURCE     NAVI MUMBAI','30/04/2016 PAYLESS SHOESOURCE     NAVI MUMBAI 1,999.00',NULL,3,73,'2016-04-30 00:00:00.000000','DEBIT','2019-07-19 16:54:48.120000',1)
+DELETE FROM "Transaction" WHERE "id"=972
+INSERT INTO "Transaction" VALUES(972,2100,30,'PINNK LAKE RESORT        THANE','15/05/2016 PINNK LAKE RESORT        THANE 2,100.00',NULL,3,73,'2016-05-15 00:00:00.000000','DEBIT','2019-07-19 16:54:48.121000',1)
+DELETE FROM "Transaction" WHERE "id"=980
+INSERT INTO "Transaction" VALUES(980,240,30,'ORANG HOTELS AND RESTA   MUMBAI','20/04/2017 ORANG HOTELS AND RESTA   MUMBAI 240.00',NULL,3,73,'2017-04-20 00:00:00.000000','DEBIT','2019-07-19 16:54:48.122000',1)
+DELETE FROM "Transaction" WHERE "id"=981
+INSERT INTO "Transaction" VALUES(981,1002,30,'PANTALOONS FASHION & R   MUMBAI','21/04/2017 PANTALOONS FASHION & R   MUMBAI 1,002.00',NULL,3,73,'2017-04-21 00:00:00.000000','DEBIT','2019-07-19 16:54:48.123000',1)
+DELETE FROM "Transaction" WHERE "id"=988
+INSERT INTO "Transaction" VALUES(988,1398,30,'PANTALOONS FASHION AND NAVI MUMBAI','23/04/2017 PANTALOONS FASHION AND NAVI MUMBAI 1,398.00',NULL,3,73,'2017-04-23 00:00:00.000000','DEBIT','2019-07-19 16:54:48.124000',1)
+DELETE FROM "Transaction" WHERE "id"=996
+INSERT INTO "Transaction" VALUES(996,440,30,'LITTLE WORLD KHARGHAR    MUMBAI','01/05/2017 LITTLE WORLD KHARGHAR    MUMBAI 440.00',NULL,3,73,'2017-05-01 00:00:00.000000','DEBIT','2019-07-19 16:54:48.125000',1)
+DELETE FROM "Transaction" WHERE "id"=997
+INSERT INTO "Transaction" VALUES(997,3199,30,'PANTALOONS FASHION AND NAVI MUMBAI','01/05/2017 PANTALOONS FASHION AND NAVI MUMBAI 3,199.00',NULL,3,73,'2017-05-01 00:00:00.000000','DEBIT','2019-07-19 16:54:48.125000',1)
+DELETE FROM "Transaction" WHERE "id"=998
+INSERT INTO "Transaction" VALUES(998,240,30,'ORANG HOTELS AND RESTA   MUMBAI','02/05/2017 ORANG HOTELS AND RESTA   MUMBAI 240.00',NULL,3,73,'2017-05-02 00:00:00.000000','DEBIT','2019-07-19 16:54:48.127000',1)
+DELETE FROM "Transaction" WHERE "id"=1004
+INSERT INTO "Transaction" VALUES(1004,702,30,'HOTEL VISHRAM AND GUES   PARDI','06/05/2017 HOTEL VISHRAM AND GUES   PARDI 702.00',NULL,3,73,'2017-05-06 00:00:00.000000','DEBIT','2019-07-19 16:54:48.128000',1)
+DELETE FROM "Transaction" WHERE "id"=1018
+INSERT INTO "Transaction" VALUES(1018,2,30,'KK CESS','18/05/2017 KK CESS 2.06',NULL,3,73,'2017-05-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.130000',1)
+DELETE FROM "Transaction" WHERE "id"=1036
+INSERT INTO "Transaction" VALUES(1036,509,30,'HOTEL NAVARATNA        NAVI MUMBAI','28/04/2018 HOTEL NAVARATNA        NAVI MUMBAI 509.00',NULL,3,73,'2018-04-28 00:00:00.000000','DEBIT','2019-07-19 16:54:48.131000',1)
+DELETE FROM "Transaction" WHERE "id"=1037
+INSERT INTO "Transaction" VALUES(1037,488,30,'P AND G MEDICO DAY AND NAVI MUMBAI','30/04/2018 P AND G MEDICO DAY AND NAVI MUMBAI 488.00',NULL,3,73,'2018-04-30 00:00:00.000000','DEBIT','2019-07-19 16:54:48.132000',1)
+DELETE FROM "Transaction" WHERE "id"=1042
+INSERT INTO "Transaction" VALUES(1042,300,30,'MUMBAI KHARGHAR          MUMBAI','06/05/2018 MUMBAI KHARGHAR          MUMBAI 300.00',NULL,3,73,'2018-05-06 00:00:00.000000','DEBIT','2019-07-19 16:54:48.132000',1)
+DELETE FROM "Transaction" WHERE "id"=1043
+INSERT INTO "Transaction" VALUES(1043,365,30,'INNOVITI MHS             MUMBAI','08/05/2018 INNOVITI MHS             MUMBAI 365.00',NULL,3,73,'2018-05-08 00:00:00.000000','DEBIT','2019-07-19 16:54:48.134000',1)
+DELETE FROM "Transaction" WHERE "id"=1048
+INSERT INTO "Transaction" VALUES(1048,190,30,'SHREE DATTA SNACKS MAN   THANE','10/05/2018 SHREE DATTA SNACKS MAN   THANE 190.00',NULL,3,73,'2018-05-10 00:00:00.000000','DEBIT','2019-07-19 16:54:48.134000',1)
+DELETE FROM "Transaction" WHERE "id"=1062
+INSERT INTO "Transaction" VALUES(1062,1494,30,'DMART AVENUE SUPERMARTSPANVEL','12/06/2016 DMART AVENUE SUPERMARTSPANVEL 1,494.36',NULL,3,73,'2016-06-12 00:00:00.000000','DEBIT','2019-07-19 16:54:48.135000',1)
+DELETE FROM "Transaction" WHERE "id"=1067
+INSERT INTO "Transaction" VALUES(1067,2,30,'KK CESS','18/06/2016 KK CESS 1.86',NULL,3,73,'2016-06-18 00:00:00.000000','DEBIT','2019-07-19 16:54:48.137000',1)
+DELETE FROM "Transaction" WHERE "id"=1071
+INSERT INTO "Transaction" VALUES(1071,399,30,'HOME STOP RETAIL FORMA   NAVI MUMBA','20/05/2017 HOME STOP RETAIL FORMA   NAVI MUMBA 399.00',NULL,3,73,'2017-05-20 00:00:00.000000','DEBIT','2019-07-19 16:54:48.139000',1)
+DELETE FROM "Transaction" WHERE "id"=1072
+INSERT INTO "Transaction" VALUES(1072,4803,30,'SHOPPERS STOP LTD        NAVI MUMBA','20/05/2017 SHOPPERS STOP LTD        NAVI MUMBA 4,803.00',NULL,3,73,'2017-05-20 00:00:00.000000','DEBIT','2019-07-19 16:54:48.140000',1)
+DELETE FROM "Transaction" WHERE "id"=1280
+INSERT INTO "Transaction" VALUES(1280,1204,30,'DESICURRY              NAVI MUMBAI','16/09/2017 DESICURRY              NAVI MUMBAI 1,204.00',NULL,3,73,'2017-09-16 00:00:00.000000','DEBIT','2019-07-19 16:54:48.141000',1)
+DELETE FROM "Transaction" WHERE "id"=2027
+INSERT INTO "Transaction" VALUES(2027,390,30,'POS 438624XXXXXX2810 DESICURRY POS DEBIT',' 31/08/15  ,POS 438624XXXXXX2810 DESICURRY POS DEBIT                                                                                 ,31/08/15 ,        390.00     ,          0.00     ,0000000000000651       ,     79315.79  ','0000000000000651',6,73,'2015-08-31 00:00:00.000000','DEBIT','2019-07-19 16:54:48.142000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59216,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:615','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59217,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:615','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59218,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:621','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59219,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:621','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59220,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:635','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59221,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:635','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59222,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:643','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59223,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:643','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59224,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:660','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59225,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:660','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59226,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:662','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59227,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:662','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59228,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:663','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59229,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:663','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59230,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:664','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59231,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:664','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59232,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:666','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59233,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:666','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59234,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:667','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59235,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:667','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59236,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:668','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59237,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:668','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59238,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:681','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59239,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:681','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59240,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:684','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59241,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:684','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59242,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:687','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59243,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:687','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59244,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:688','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59245,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:688','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59246,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:701','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59247,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:701','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59248,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:708','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59249,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:708','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59250,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:709','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59251,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:709','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59252,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:714','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59253,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:714','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59254,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:715','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59255,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:715','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59256,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:718','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59257,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:718','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59258,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:719','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59259,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:719','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59260,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:728','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59261,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:728','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59262,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:729','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59263,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:729','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59264,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:735','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59265,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:735','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59266,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:738','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59267,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:738','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59268,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:742','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59269,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:742','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59270,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:748','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59271,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:748','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59272,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:750','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59273,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:750','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59274,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:752','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59275,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:752','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59276,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:753','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59277,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:753','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59278,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:757','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59279,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:757','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59280,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:760','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59281,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:760','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59282,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:767','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59283,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:767','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59284,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:781','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59285,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:781','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59286,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:785','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59287,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:785','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59288,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:788','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59289,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:788','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59290,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:790','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59291,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:790','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59292,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:797','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59293,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:797','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59294,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:800','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59295,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:800','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59296,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:801','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59297,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:801','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59298,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:802','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59299,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:802','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59300,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:815','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59301,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:815','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59302,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:818','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59303,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:818','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59304,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:819','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59305,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:819','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59306,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:820','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59307,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:820','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59308,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:823','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59309,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:823','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59310,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:828','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59311,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:828','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59312,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:833','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59313,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:833','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59314,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:834','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59315,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:834','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59316,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:837','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59317,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:837','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59318,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:838','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59319,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:838','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59320,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:843','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59321,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:843','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59322,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:854','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59323,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:854','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59324,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:863','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59325,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:863','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59326,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:868','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59327,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:868','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59328,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:875','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59329,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:875','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59330,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:876','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59331,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:876','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59332,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:879','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59333,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:879','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59334,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:888','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59335,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:888','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59336,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:889','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59337,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:889','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59338,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:891','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59339,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:891','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59340,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:893','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59341,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:893','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59342,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:895','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59343,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:895','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59344,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:896','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59345,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:896','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59346,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:903','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59347,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:903','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59348,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:910','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59349,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:910','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59350,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:913','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59351,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:913','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59352,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:922','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59353,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:922','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59354,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:929','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59355,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:929','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59356,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:930','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59357,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:930','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59358,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:942','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59359,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:942','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59360,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:944','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59361,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:944','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59362,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:950','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59363,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:950','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59364,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:951','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59365,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:951','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59366,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:959','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59367,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:959','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59368,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:960','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59369,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:960','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59370,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:963','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59371,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:963','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59372,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:964','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59373,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:964','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59374,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:965','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59375,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:965','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59376,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:972','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59377,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:972','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59378,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:980','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59379,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:980','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59380,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:981','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59381,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:981','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59382,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:988','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59383,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:988','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59384,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:996','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59385,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:996','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59386,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:997','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59387,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:997','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59388,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:998','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59389,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:998','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59390,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1004','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59391,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1004','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59392,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1018','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59393,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1018','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59394,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1036','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59395,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1036','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59396,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1037','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59397,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1037','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59398,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1042','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59399,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1042','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59400,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1043','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59401,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1043','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59402,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1048','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59403,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1048','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59404,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1062','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59405,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1062','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59406,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1067','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59407,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1067','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59408,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1071','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59409,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1071','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59410,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1072','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59411,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1072','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59412,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:1280','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59413,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:1280','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59414,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:2027','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+INSERT INTO "AuditEntry" VALUES(59415,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:2027','2019-07-19 16:54:48.494000','82a612b6-3c34-471e-8d4e-bb80329f383d','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(249,16099,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 250
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=248
+INSERT INTO BLOCKS VALUES(248,1,0)
+INSERT INTO BLOCKS VALUES(249,2147483398,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=248
+INSERT INTO LOBS VALUES(248,1,0,249)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('82a612b6-3c34-471e-8d4e-bb80329f383d','Transaction: 100 objects\u000aCategory: Foods and Beverages\u000aSub-Category: Dinning\u000a','2019-07-19 16:54:48.142000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',249,NULL,NULL,NULL,NULL,'2019-07-19 16:54:48.043000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:54:47.941000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=249
+INSERT INTO LOB_IDS VALUES(249,16099,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=634
+INSERT INTO "Transaction" VALUES(634,330,30,'DESICURRY              NAVI MUMBAI','22/08/2015 DESICURRY              NAVI MUMBAI 330.00',NULL,2,73,'2015-08-22 00:00:00.000000','DEBIT','2019-07-19 16:55:03.159000',1)
+DELETE FROM "Transaction" WHERE "id"=690
+INSERT INTO "Transaction" VALUES(690,1030,30,'DESICURRY              NAVI MUMBAI','15/01/2017 DESICURRY              NAVI MUMBAI 1,030.00',NULL,3,73,'2017-01-15 00:00:00.000000','DEBIT','2019-07-19 16:55:03.160000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59416,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:634','2019-07-19 16:55:03.330000','1df3c100-b0eb-4371-8171-353a0d7171c1','admin')
+INSERT INTO "AuditEntry" VALUES(59417,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:634','2019-07-19 16:55:03.330000','1df3c100-b0eb-4371-8171-353a0d7171c1','admin')
+INSERT INTO "AuditEntry" VALUES(59418,'domainapp.modules.txn.dom.Transaction#category','Category(name=Foods and Beverages)',NULL,'category',0,'Transaction','statements.Transaction:690','2019-07-19 16:55:03.330000','1df3c100-b0eb-4371-8171-353a0d7171c1','admin')
+INSERT INTO "AuditEntry" VALUES(59419,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Dinning)',NULL,'subCategory',0,'Transaction','statements.Transaction:690','2019-07-19 16:55:03.330000','1df3c100-b0eb-4371-8171-353a0d7171c1','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(250,1876,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 251
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=249
+INSERT INTO BLOCKS VALUES(249,1,0)
+INSERT INTO BLOCKS VALUES(250,2147483397,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=249
+INSERT INTO LOBS VALUES(249,1,0,250)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('1df3c100-b0eb-4371-8171-353a0d7171c1','Transaction: 2 objects\u000aCategory: Foods and Beverages\u000aSub-Category: Dinning\u000a','2019-07-19 16:55:03.160000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',250,NULL,NULL,NULL,NULL,'2019-07-19 16:55:03.157000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:55:03.150000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=250
+INSERT INTO LOB_IDS VALUES(250,1876,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=2572
+INSERT INTO "Transaction" VALUES(2572,2400,22,'POS 438624XXXXXX2810 R MAYAR IRANI POS DEBIT',' 08/01/17  ,POS 438624XXXXXX2810 R MAYAR IRANI POS DEBIT                                                                             ,08/01/17 ,       2400.00     ,          0.00     ,0000000000000106       ,    179044.45  ','0000000000000106',6,75,'2017-01-08 00:00:00.000000','DEBIT','2019-07-19 16:56:20.258000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59420,'domainapp.modules.txn.dom.Transaction#category','Category(name=Travel)',NULL,'category',0,'Transaction','statements.Transaction:2572','2019-07-19 16:56:20.400000','19321486-8b04-4c3a-912f-2e01877d8809','admin')
+INSERT INTO "AuditEntry" VALUES(59421,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Fuel)',NULL,'subCategory',0,'Transaction','statements.Transaction:2572','2019-07-19 16:56:20.400000','19321486-8b04-4c3a-912f-2e01877d8809','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(251,1732,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 252
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=250
+INSERT INTO BLOCKS VALUES(250,1,0)
+INSERT INTO BLOCKS VALUES(251,2147483396,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=250
+INSERT INTO LOBS VALUES(250,1,0,251)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('19321486-8b04-4c3a-912f-2e01877d8809','Transaction: 1 object\u000aCategory: Travel\u000aSub-Category: Fuel\u000a','2019-07-19 16:56:20.257000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',251,NULL,NULL,NULL,NULL,'2019-07-19 16:56:20.257000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:56:20.250000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=251
+INSERT INTO LOB_IDS VALUES(251,1732,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1296
+INSERT INTO "Transaction" VALUES(1296,316,32,'RELIANCE TRENDS        NAVI MUMBAI','16/10/2016 RELIANCE TRENDS        NAVI MUMBAI 315.88',NULL,3,77,'2016-10-16 00:00:00.000000','DEBIT','2019-07-19 16:56:42.099000',1)
+DELETE FROM "Transaction" WHERE "id"=1347
+INSERT INTO "Transaction" VALUES(1347,5402,32,'RELIANCE TRENDS        NAVI MUMBAI','22/10/2015 RELIANCE TRENDS        NAVI MUMBAI 5,402.02',NULL,3,77,'2015-10-22 00:00:00.000000','DEBIT','2019-07-19 16:56:42.100000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59422,'domainapp.modules.txn.dom.Transaction#category','Category(name=Shopping)',NULL,'category',0,'Transaction','statements.Transaction:1296','2019-07-19 16:56:42.257000','b006e574-8621-43b6-a7e0-ce526d27acc5','admin')
+INSERT INTO "AuditEntry" VALUES(59423,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Clothes)',NULL,'subCategory',0,'Transaction','statements.Transaction:1296','2019-07-19 16:56:42.257000','b006e574-8621-43b6-a7e0-ce526d27acc5','admin')
+INSERT INTO "AuditEntry" VALUES(59424,'domainapp.modules.txn.dom.Transaction#category','Category(name=Shopping)',NULL,'category',0,'Transaction','statements.Transaction:1347','2019-07-19 16:56:42.257000','b006e574-8621-43b6-a7e0-ce526d27acc5','admin')
+INSERT INTO "AuditEntry" VALUES(59425,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Clothes)',NULL,'subCategory',0,'Transaction','statements.Transaction:1347','2019-07-19 16:56:42.257000','b006e574-8621-43b6-a7e0-ce526d27acc5','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(252,1878,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 253
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=251
+INSERT INTO BLOCKS VALUES(251,1,0)
+INSERT INTO BLOCKS VALUES(252,2147483395,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=251
+INSERT INTO LOBS VALUES(251,1,0,252)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('b006e574-8621-43b6-a7e0-ce526d27acc5','Transaction: 2 objects\u000aCategory: Shopping\u000aSub-Category: Clothes\u000a','2019-07-19 16:56:42.100000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',252,NULL,NULL,NULL,NULL,'2019-07-19 16:56:42.098000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiJjYXRlZ29yeSBcdTAwM2RcdTAwM2QgbnVsbCBcdTAwMjZcdTAwMjYgc3ViQ2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwiLCJwYXJhbWV0ZXJzIjp7fX0=','2019-07-19 16:56:42.092000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=252
+INSERT INTO LOB_IDS VALUES(252,1878,1,40)
+COMMIT
+SET SCHEMA "statements"
+INSERT INTO "SubCategory" VALUES(116,TRUE,'Miscelleneous expenses e.g. minor cosmetics, plastic tools, etc.','Miscelleneous','2019-07-19 16:58:22.873000')
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59426,'domainapp.modules.ref.dom.SubCategory#name','Miscelleneous','[NEW]','name',0,'Sub Category','stmt.SubCategory:116','2019-07-19 16:58:23.063000','1031882e-5d81-41ec-8126-43d27096afb2','admin')
+INSERT INTO "AuditEntry" VALUES(59427,'domainapp.modules.ref.dom.SubCategory#description','Miscelleneous expenses e.g. minor cosmetics, plastic tools, etc.','[NEW]','description',0,'Sub Category','stmt.SubCategory:116','2019-07-19 16:58:23.063000','1031882e-5d81-41ec-8126-43d27096afb2','admin')
+INSERT INTO "AuditEntry" VALUES(59428,'domainapp.modules.ref.dom.SubCategory#active','true','[NEW]','active',0,'Sub Category','stmt.SubCategory:116','2019-07-19 16:58:23.063000','1031882e-5d81-41ec-8126-43d27096afb2','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(253,1349,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 254
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=252
+INSERT INTO BLOCKS VALUES(252,1,0)
+INSERT INTO BLOCKS VALUES(253,2147483394,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=252
+INSERT INTO LOBS VALUES(252,1,0,253)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('1031882e-5d81-41ec-8126-43d27096afb2','Name: Miscelleneous\u000aDescription: Miscelleneous expenses e.g. minor cosmetics, plastic tools, etc.\u000a','2019-07-19 16:58:22.874000',NULL,'FOREGROUND','domainapp.modules.ref.view.dashboard.ManageCategoryDashboard#createSubCategory()',253,NULL,NULL,NULL,NULL,'2019-07-19 16:58:22.872000','Create','Manage Category Dashboard','*ref.ManageCategoryDashboard:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1lbWVudG8vPg==','2019-07-19 16:58:22.867000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=253
+INSERT INTO LOB_IDS VALUES(253,1349,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1295
+INSERT INTO "Transaction" VALUES(1295,1185,27,'BEAUTIFUL2.              NAVI MUMBA','16/10/2016 BEAUTIFUL2.              NAVI MUMBA 1,185.00',NULL,3,116,'2016-10-16 00:00:00.000000','DEBIT','2019-07-19 16:58:41.269000',1)
+DELETE FROM "Transaction" WHERE "id"=1427
+INSERT INTO "Transaction" VALUES(1427,1095,27,'BEAUTIFUL                X','06/12/2015 BEAUTIFUL                X 1,095.00',NULL,3,116,'2015-12-06 00:00:00.000000','DEBIT','2019-07-19 16:58:41.270000',1)
+DELETE FROM "Transaction" WHERE "id"=4327
+INSERT INTO "Transaction" VALUES(4327,457,27,'POS 438624XXXXXX9543 BEAUTIFUL POS DEBIT',' 13/01/16  ,POS 438624XXXXXX9543 BEAUTIFUL POS DEBIT                                                                                 ,13/01/16 ,        457.00     ,          0.00     ,0000601313128285       ,     25863.94  ','0000601313128285',10,116,'2016-01-13 00:00:00.000000','DEBIT','2019-07-19 16:58:41.271000',1)
+DELETE FROM "Transaction" WHERE "id"=4480
+INSERT INTO "Transaction" VALUES(4480,723,27,'POS 438624XXXXXX9543 BEAUTIFUL POS DEBIT',' 13/01/17  ,POS 438624XXXXXX9543 BEAUTIFUL POS DEBIT                                                                                 ,13/01/17 ,        723.00     ,          0.00     ,0000000000011129       ,     37776.56  ','0000000000011129',10,116,'2017-01-13 00:00:00.000000','DEBIT','2019-07-19 16:58:41.271000',1)
+DELETE FROM "Transaction" WHERE "id"=4516
+INSERT INTO "Transaction" VALUES(4516,1597,27,'POS 438624XXXXXX9543 BEAUTIFUL POS DEBIT',' 15/02/17  ,POS 438624XXXXXX9543 BEAUTIFUL POS DEBIT                                                                                 ,15/02/17 ,       1597.00     ,          0.00     ,0000000000019693       ,      9594.65  ','0000000000019693',10,116,'2017-02-15 00:00:00.000000','DEBIT','2019-07-19 16:58:41.272000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59429,'domainapp.modules.txn.dom.Transaction#category','Category(name=Household)',NULL,'category',0,'Transaction','statements.Transaction:1295','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59430,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Miscelleneous)',NULL,'subCategory',0,'Transaction','statements.Transaction:1295','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59431,'domainapp.modules.txn.dom.Transaction#category','Category(name=Household)',NULL,'category',0,'Transaction','statements.Transaction:1427','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59432,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Miscelleneous)',NULL,'subCategory',0,'Transaction','statements.Transaction:1427','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59433,'domainapp.modules.txn.dom.Transaction#category','Category(name=Household)',NULL,'category',0,'Transaction','statements.Transaction:4327','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59434,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Miscelleneous)',NULL,'subCategory',0,'Transaction','statements.Transaction:4327','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59435,'domainapp.modules.txn.dom.Transaction#category','Category(name=Household)',NULL,'category',0,'Transaction','statements.Transaction:4480','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59436,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Miscelleneous)',NULL,'subCategory',0,'Transaction','statements.Transaction:4480','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59437,'domainapp.modules.txn.dom.Transaction#category','Category(name=Household)',NULL,'category',0,'Transaction','statements.Transaction:4516','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+INSERT INTO "AuditEntry" VALUES(59438,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Miscelleneous)',NULL,'subCategory',0,'Transaction','statements.Transaction:4516','2019-07-19 16:58:41.413000','37ce5c04-1cb0-4c54-90d9-4aa43e573b08','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(254,2505,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 255
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=253
+INSERT INTO BLOCKS VALUES(253,1,0)
+INSERT INTO BLOCKS VALUES(254,2147483393,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=253
+INSERT INTO LOBS VALUES(253,1,0,254)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('37ce5c04-1cb0-4c54-90d9-4aa43e573b08','Transaction: 5 objects\u000aCategory: Household\u000aSub-Category: Miscelleneous\u000a','2019-07-19 16:58:41.272000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',254,NULL,NULL,NULL,NULL,'2019-07-19 16:58:41.268000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 16:58:41.262000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=254
+INSERT INTO LOB_IDS VALUES(254,2505,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=3027
+INSERT INTO "Transaction" VALUES(3027,149,21,'LHDF6085120588/BILLDKRELIANCEJIOINF',' 24/02/18  ,LHDF6085120588/BILLDKRELIANCEJIOINF                                                                                      ,24/02/18 ,        149.00     ,          0.00     ,0000180557135517       ,     74595.06  ','0000180557135517',6,92,'2018-02-24 00:00:00.000000','DEBIT','2019-07-19 17:00:57.174000',1)
+DELETE FROM "Transaction" WHERE "id"=3044
+INSERT INTO "Transaction" VALUES(3044,149,21,'LHDF6168721679/BILLDKRELIANCEJIOINF',' 28/03/18  ,LHDF6168721679/BILLDKRELIANCEJIOINF                                                                                      ,28/03/18 ,        149.00     ,          0.00     ,0000180870331825       ,    112730.20  ','0000180870331825',6,92,'2018-03-28 00:00:00.000000','DEBIT','2019-07-19 17:00:57.175000',1)
+DELETE FROM "Transaction" WHERE "id"=3241
+INSERT INTO "Transaction" VALUES(3241,399,21,'NHDF6721903298/BILLDKRELIANCEJIOINF',' 26/09/18  ,NHDF6721903298/BILLDKRELIANCEJIOINF                                                                                      ,26/09/18 ,        399.00     ,          0.00     ,0000182696204404       ,    137343.61  ','0000182696204404',6,92,'2018-09-26 00:00:00.000000','DEBIT','2019-07-19 17:00:57.175000',1)
+DELETE FROM "Transaction" WHERE "id"=3343
+INSERT INTO "Transaction" VALUES(3343,251,21,'PHDF7037009440/BILLDKRELIANCEJIOINF',' 26/12/18  ,PHDF7037009440/BILLDKRELIANCEJIOINF                                                                                      ,26/12/18 ,        251.00     ,          0.00     ,0000183600483605       ,     79803.84  ','0000183600483605',6,92,'2018-12-26 00:00:00.000000','DEBIT','2019-07-19 17:00:57.176000',1)
+DELETE FROM "Transaction" WHERE "id"=3413
+INSERT INTO "Transaction" VALUES(3413,399,21,'PHDF7223090097/BILLDKRELIANCEJIOINF',' 16/02/19  ,PHDF7223090097/BILLDKRELIANCEJIOINF                                                                                      ,16/02/19 ,        399.00     ,          0.00     ,0000190475200895       ,     23169.39  ','0000190475200895',6,92,'2019-02-16 00:00:00.000000','DEBIT','2019-07-19 17:00:57.177000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59439,'domainapp.modules.txn.dom.Transaction#category','Category(name=Utility Bills)',NULL,'category',0,'Transaction','statements.Transaction:3027','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59440,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Mobile/Phone)',NULL,'subCategory',0,'Transaction','statements.Transaction:3027','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59441,'domainapp.modules.txn.dom.Transaction#category','Category(name=Utility Bills)',NULL,'category',0,'Transaction','statements.Transaction:3044','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59442,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Mobile/Phone)',NULL,'subCategory',0,'Transaction','statements.Transaction:3044','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59443,'domainapp.modules.txn.dom.Transaction#category','Category(name=Utility Bills)',NULL,'category',0,'Transaction','statements.Transaction:3241','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59444,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Mobile/Phone)',NULL,'subCategory',0,'Transaction','statements.Transaction:3241','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59445,'domainapp.modules.txn.dom.Transaction#category','Category(name=Utility Bills)',NULL,'category',0,'Transaction','statements.Transaction:3343','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59446,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Mobile/Phone)',NULL,'subCategory',0,'Transaction','statements.Transaction:3343','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59447,'domainapp.modules.txn.dom.Transaction#category','Category(name=Utility Bills)',NULL,'category',0,'Transaction','statements.Transaction:3413','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+INSERT INTO "AuditEntry" VALUES(59448,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Mobile/Phone)',NULL,'subCategory',0,'Transaction','statements.Transaction:3413','2019-07-19 17:00:57.472000','4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(255,2504,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 256
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=254
+INSERT INTO BLOCKS VALUES(254,1,0)
+INSERT INTO BLOCKS VALUES(255,2147483392,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=254
+INSERT INTO LOBS VALUES(254,1,0,255)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('4c3a21f8-b2ff-4aad-9464-c5ae70f50adb','Transaction: 5 objects\u000aCategory: Utility Bills\u000aSub-Category: Mobile/Phone\u000a','2019-07-19 17:00:57.176000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',255,NULL,NULL,NULL,NULL,'2019-07-19 17:00:57.172000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:00:57.163000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=255
+INSERT INTO LOB_IDS VALUES(255,2504,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1938
+INSERT INTO "Transaction" VALUES(1938,180,32,'POS 421424XXXXXX7648 RELIANCE MEDIA POS DEBIT',' 11/05/15  ,POS 421424XXXXXX7648 RELIANCE MEDIA POS DEBIT                                                                            ,11/05/15 ,        180.00     ,          0.00     ,0000000000003416       ,     27731.12  ','0000000000003416',6,68,'2015-05-11 00:00:00.000000','DEBIT','2019-07-19 17:01:32.518000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59449,'domainapp.modules.txn.dom.Transaction#category','Category(name=Shopping)',NULL,'category',0,'Transaction','statements.Transaction:1938','2019-07-19 17:01:32.723000','5f777957-440e-40c5-ab34-271a1c2727d5','admin')
+INSERT INTO "AuditEntry" VALUES(59450,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Electronics)',NULL,'subCategory',0,'Transaction','statements.Transaction:1938','2019-07-19 17:01:32.723000','5f777957-440e-40c5-ab34-271a1c2727d5','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(256,1920,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 257
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=255
+INSERT INTO BLOCKS VALUES(255,1,0)
+INSERT INTO BLOCKS VALUES(256,2147483391,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=255
+INSERT INTO LOBS VALUES(255,1,0,256)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('5f777957-440e-40c5-ab34-271a1c2727d5','Transaction: 1 object\u000aCategory: Shopping\u000aSub-Category: Electronics\u000a','2019-07-19 17:01:32.518000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',256,NULL,NULL,NULL,NULL,'2019-07-19 17:01:32.517000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:01:32.510000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=256
+INSERT INTO LOB_IDS VALUES(256,1920,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=3452
+INSERT INTO "Transaction" VALUES(3452,26789,23,'RELIANCE TAX SAVER -A888  22334840 41363',' 29/03/19  ,RELIANCE TAX SAVER -A888  22334840 41363                                                                                 ,29/03/19 ,          0.00     ,      26789.30     ,0000053388500020       ,     28206.95  ','0000053388500020',6,112,'2019-03-29 00:00:00.000000','CREDIT','2019-07-19 17:01:51.413000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59451,'domainapp.modules.txn.dom.Transaction#category','Category(name=Income)',NULL,'category',0,'Transaction','statements.Transaction:3452','2019-07-19 17:01:51.606000','b75848a3-681b-46ec-a7f4-080fae78ad3c','admin')
+INSERT INTO "AuditEntry" VALUES(59452,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Mutul Fund)',NULL,'subCategory',0,'Transaction','statements.Transaction:3452','2019-07-19 17:01:51.606000','b75848a3-681b-46ec-a7f4-080fae78ad3c','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(257,1921,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 258
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=256
+INSERT INTO BLOCKS VALUES(256,1,0)
+INSERT INTO BLOCKS VALUES(257,2147483390,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=256
+INSERT INTO LOBS VALUES(256,1,0,257)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('b75848a3-681b-46ec-a7f4-080fae78ad3c','Transaction: 1 object\u000aCategory: Income\u000aSub-Category: Mutul Fund\u000a','2019-07-19 17:01:51.413000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',257,NULL,NULL,NULL,NULL,'2019-07-19 17:01:51.412000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:01:51.408000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=257
+INSERT INTO LOB_IDS VALUES(257,1921,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=2889
+INSERT INTO "Transaction" VALUES(2889,19559,24,'CHQ PAID-MICR CTS-MU-RELIANCE GIC LTD',' 19/09/17  ,CHQ PAID-MICR CTS-MU-RELIANCE GIC LTD                                                                                    ,19/09/17 ,      19559.00     ,          0.00     ,0000000000000061       ,    556964.56  ','0000000000000061',6,97,'2017-09-19 00:00:00.000000','DEBIT','2019-07-19 17:02:07.848000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59453,'domainapp.modules.txn.dom.Transaction#category','Category(name=Insurance)',NULL,'category',0,'Transaction','statements.Transaction:2889','2019-07-19 17:02:08.052000','ef5db262-4744-4570-95fb-1b418f85efac','admin')
+INSERT INTO "AuditEntry" VALUES(59454,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Car)',NULL,'subCategory',0,'Transaction','statements.Transaction:2889','2019-07-19 17:02:08.052000','ef5db262-4744-4570-95fb-1b418f85efac','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(258,1920,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 259
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=257
+INSERT INTO BLOCKS VALUES(257,1,0)
+INSERT INTO BLOCKS VALUES(258,2147483389,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=257
+INSERT INTO LOBS VALUES(257,1,0,258)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('ef5db262-4744-4570-95fb-1b418f85efac','Transaction: 1 object\u000aCategory: Insurance\u000aSub-Category: Car\u000a','2019-07-19 17:02:07.848000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',258,NULL,NULL,NULL,NULL,'2019-07-19 17:02:07.847000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:02:07.843000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=258
+INSERT INTO LOB_IDS VALUES(258,1920,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1378
+INSERT INTO "Transaction" VALUES(1378,399,32,'RELIANCE LIFESTYLE HOLDNAVI MUMBAI','19/10/2017 RELIANCE LIFESTYLE HOLDNAVI MUMBAI 399.00',NULL,3,77,'2017-10-19 00:00:00.000000','DEBIT','2019-07-19 17:02:38.028000',1)
+DELETE FROM "Transaction" WHERE "id"=2295
+INSERT INTO "Transaction" VALUES(2295,1879,32,'POS 438624XXXXXX2810 RELIANCE,10/07/16',' 10/07/16  ,POS 438624XXXXXX2810 RELIANCE   , POS DEBIT                                                                              ,10/07/16 ,       1878.85     ,          0.00     ,0000000000005532       ,    175119.60  ','0000000000005532',6,77,'2016-07-10 00:00:00.000000','DEBIT','2019-07-19 17:02:38.028000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59455,'domainapp.modules.txn.dom.Transaction#category','Category(name=Shopping)',NULL,'category',0,'Transaction','statements.Transaction:1378','2019-07-19 17:02:38.181000','3dcfa4db-955f-41ae-9022-55ebad716107','admin')
+INSERT INTO "AuditEntry" VALUES(59456,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Clothes)',NULL,'subCategory',0,'Transaction','statements.Transaction:1378','2019-07-19 17:02:38.181000','3dcfa4db-955f-41ae-9022-55ebad716107','admin')
+INSERT INTO "AuditEntry" VALUES(59457,'domainapp.modules.txn.dom.Transaction#category','Category(name=Shopping)',NULL,'category',0,'Transaction','statements.Transaction:2295','2019-07-19 17:02:38.181000','3dcfa4db-955f-41ae-9022-55ebad716107','admin')
+INSERT INTO "AuditEntry" VALUES(59458,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Clothes)',NULL,'subCategory',0,'Transaction','statements.Transaction:2295','2019-07-19 17:02:38.181000','3dcfa4db-955f-41ae-9022-55ebad716107','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(259,2066,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 260
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=258
+INSERT INTO BLOCKS VALUES(258,1,0)
+INSERT INTO BLOCKS VALUES(259,2147483388,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=258
+INSERT INTO LOBS VALUES(258,1,0,259)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('3dcfa4db-955f-41ae-9022-55ebad716107','Transaction: 2 objects\u000aCategory: Shopping\u000aSub-Category: Clothes\u000a','2019-07-19 17:02:38.028000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',259,NULL,NULL,NULL,NULL,'2019-07-19 17:02:38.026000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:02:38.022000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=259
+INSERT INTO LOB_IDS VALUES(259,2066,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1083
+INSERT INTO "Transaction" VALUES(1083,20700,24,'CITRUS PAY STAR HEALTH MUMBAI','02/06/2017 CITRUS PAY STAR HEALTH MUMBAI 20,700.00',NULL,3,76,'2017-06-02 00:00:00.000000','DEBIT','2019-07-19 17:03:59.915000',1)
+DELETE FROM "Transaction" WHERE "id"=1084
+INSERT INTO "Transaction" VALUES(1084,32238,24,'CIGNATTKINSURANCE.IN-DIREMUMBAI','04/06/2017 CIGNATTKINSURANCE.IN-DIREMUMBAI 32,238.00',NULL,3,76,'2017-06-04 00:00:00.000000','DEBIT','2019-07-19 17:03:59.916000',1)
+DELETE FROM "Transaction" WHERE "id"=2259
+INSERT INTO "Transaction" VALUES(2259,20700,24,'105453170409381/CITRUSSTARHEALTH',' 08/06/16  ,105453170409381/CITRUSSTARHEALTH                                                                                         ,08/06/16 ,      20700.00     ,          0.00     ,0000161603752262       ,     80879.41  ','0000161603752262',6,76,'2016-06-08 00:00:00.000000','DEBIT','2019-07-19 17:03:59.917000',1)
+DELETE FROM "Transaction" WHERE "id"=3130
+INSERT INTO "Transaction" VALUES(3130,21240,24,'7823803253/PAYTMSTARHEALTHIN',' 04/06/18  ,7823803253/PAYTMSTARHEALTHIN                                                                                             ,04/06/18 ,      21240.00     ,          0.00     ,0000181555380983       ,    183472.14  ','0000181555380983',6,76,'2018-06-04 00:00:00.000000','DEBIT','2019-07-19 17:03:59.917000',1)
+DELETE FROM "Transaction" WHERE "id"=1656
+INSERT INTO "Transaction" VALUES(1656,295,24,'MHDF3373590465/BILLDKCIGNATTKHEALTH',' 06/06/14  ,MHDF3373590465/BILLDKCIGNATTKHEALTH                                                                                      ,06/06/14 ,        295.00     ,          0.00     ,0000000606130041       ,     87478.77  ','0000000606130041',6,76,'2014-06-06 00:00:00.000000','DEBIT','2019-07-19 17:03:59.917000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59459,'domainapp.modules.txn.dom.Transaction#category','Category(name=Insurance)',NULL,'category',0,'Transaction','statements.Transaction:1083','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59460,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical)',NULL,'subCategory',0,'Transaction','statements.Transaction:1083','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59461,'domainapp.modules.txn.dom.Transaction#category','Category(name=Insurance)',NULL,'category',0,'Transaction','statements.Transaction:1084','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59462,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical)',NULL,'subCategory',0,'Transaction','statements.Transaction:1084','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59463,'domainapp.modules.txn.dom.Transaction#category','Category(name=Insurance)',NULL,'category',0,'Transaction','statements.Transaction:2259','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59464,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical)',NULL,'subCategory',0,'Transaction','statements.Transaction:2259','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59465,'domainapp.modules.txn.dom.Transaction#category','Category(name=Insurance)',NULL,'category',0,'Transaction','statements.Transaction:3130','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59466,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical)',NULL,'subCategory',0,'Transaction','statements.Transaction:3130','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59467,'domainapp.modules.txn.dom.Transaction#category','Category(name=Insurance)',NULL,'category',0,'Transaction','statements.Transaction:1656','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+INSERT INTO "AuditEntry" VALUES(59468,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical)',NULL,'subCategory',0,'Transaction','statements.Transaction:1656','2019-07-19 17:04:00.100000','872f3dbe-4840-493a-aa35-7cbc9a2b619d','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(260,2504,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 261
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=259
+INSERT INTO BLOCKS VALUES(259,1,0)
+INSERT INTO BLOCKS VALUES(260,2147483387,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=259
+INSERT INTO LOBS VALUES(259,1,0,260)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('872f3dbe-4840-493a-aa35-7cbc9a2b619d','Transaction: 5 objects\u000aCategory: Insurance\u000aSub-Category: Medical\u000a','2019-07-19 17:03:59.917000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',260,NULL,NULL,NULL,NULL,'2019-07-19 17:03:59.914000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3QkVBVVRJRlVMXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiQkVBVVRJRlVMIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:03:59.909000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=260
+INSERT INTO LOB_IDS VALUES(260,2504,1,40)
+COMMIT
+SET SCHEMA "statements"
+INSERT INTO "SubCategory" VALUES(117,TRUE,'Expenses towards vaccination','Vaccine','2019-07-19 17:05:18.762000')
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59469,'domainapp.modules.ref.dom.SubCategory#name','Vaccine','[NEW]','name',0,'Sub Category','stmt.SubCategory:117','2019-07-19 17:05:19.054000','0152bf6a-631e-4836-b52d-c370fc7d426f','admin')
+INSERT INTO "AuditEntry" VALUES(59470,'domainapp.modules.ref.dom.SubCategory#description','Expenses towards vaccination','[NEW]','description',0,'Sub Category','stmt.SubCategory:117','2019-07-19 17:05:19.054000','0152bf6a-631e-4836-b52d-c370fc7d426f','admin')
+INSERT INTO "AuditEntry" VALUES(59471,'domainapp.modules.ref.dom.SubCategory#active','true','[NEW]','active',0,'Sub Category','stmt.SubCategory:117','2019-07-19 17:05:19.054000','0152bf6a-631e-4836-b52d-c370fc7d426f','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(261,1307,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 262
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=260
+INSERT INTO BLOCKS VALUES(260,1,0)
+INSERT INTO BLOCKS VALUES(261,2147483386,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=260
+INSERT INTO LOBS VALUES(260,1,0,261)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('0152bf6a-631e-4836-b52d-c370fc7d426f','Name: Vaccine\u000aDescription: Expenses towards vaccination\u000a','2019-07-19 17:05:18.763000',NULL,'FOREGROUND','domainapp.modules.ref.view.dashboard.ManageCategoryDashboard#createSubCategory()',261,NULL,NULL,NULL,NULL,'2019-07-19 17:05:18.761000','Create','Manage Category Dashboard','*ref.ManageCategoryDashboard:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1lbWVudG8vPg==','2019-07-19 17:05:18.756000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=261
+INSERT INTO LOB_IDS VALUES(261,1307,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1322
+INSERT INTO "Transaction" VALUES(1322,2000,28,'PRO HEALTH               NAVI MUMBA','26/09/2017 PRO HEALTH               NAVI MUMBA 2,000.00',NULL,3,117,'2017-09-26 00:00:00.000000','DEBIT','2019-07-19 17:05:32.461000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59472,'domainapp.modules.txn.dom.Transaction#category','Category(name=Healthcare)',NULL,'category',0,'Transaction','statements.Transaction:1322','2019-07-19 17:05:32.644000','bc327100-0daa-4964-b9a4-c0151eacd569','admin')
+INSERT INTO "AuditEntry" VALUES(59473,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Vaccine)',NULL,'subCategory',0,'Transaction','statements.Transaction:1322','2019-07-19 17:05:32.644000','bc327100-0daa-4964-b9a4-c0151eacd569','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(262,1913,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 263
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=261
+INSERT INTO BLOCKS VALUES(261,1,0)
+INSERT INTO BLOCKS VALUES(262,2147483385,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=261
+INSERT INTO LOBS VALUES(261,1,0,262)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('bc327100-0daa-4964-b9a4-c0151eacd569','Transaction: 1 object\u000aCategory: Healthcare\u000aSub-Category: Vaccine\u000a','2019-07-19 17:05:32.461000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',262,NULL,NULL,NULL,NULL,'2019-07-19 17:05:32.460000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3SEVBTFRIXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiSEVBTFRIIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:05:32.456000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=262
+INSERT INTO LOB_IDS VALUES(262,1913,1,40)
+COMMIT
+SET SCHEMA "statements"
+DELETE FROM "Transaction" WHERE "id"=1364
+INSERT INTO "Transaction" VALUES(1364,600,28,'WAY 2 HEALTH DIAGNOSTI   NAVI MUMBA','15/11/2016 WAY 2 HEALTH DIAGNOSTI   NAVI MUMBA 600.00',NULL,3,106,'2016-11-15 00:00:00.000000','DEBIT','2019-07-19 17:05:42.931000',1)
+DELETE FROM "Transaction" WHERE "id"=1441
+INSERT INTO "Transaction" VALUES(1441,500,28,'WAY 2 HEALTH DIAGNOSTI   NAVI MUMBA','20/11/2016 WAY 2 HEALTH DIAGNOSTI   NAVI MUMBA 500.00',NULL,3,106,'2016-11-20 00:00:00.000000','DEBIT','2019-07-19 17:05:42.932000',1)
+SET SCHEMA "isisaudit"
+INSERT INTO "AuditEntry" VALUES(59474,'domainapp.modules.txn.dom.Transaction#category','Category(name=Healthcare)',NULL,'category',0,'Transaction','statements.Transaction:1364','2019-07-19 17:05:43.106000','55c5df87-26be-4497-a509-49257e580ebf','admin')
+INSERT INTO "AuditEntry" VALUES(59475,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical Test)',NULL,'subCategory',0,'Transaction','statements.Transaction:1364','2019-07-19 17:05:43.106000','55c5df87-26be-4497-a509-49257e580ebf','admin')
+INSERT INTO "AuditEntry" VALUES(59476,'domainapp.modules.txn.dom.Transaction#category','Category(name=Healthcare)',NULL,'category',0,'Transaction','statements.Transaction:1441','2019-07-19 17:05:43.106000','55c5df87-26be-4497-a509-49257e580ebf','admin')
+INSERT INTO "AuditEntry" VALUES(59477,'domainapp.modules.txn.dom.Transaction#subCategory','SubCategory(name=Medical Test)',NULL,'subCategory',0,'Transaction','statements.Transaction:1441','2019-07-19 17:05:43.106000','55c5df87-26be-4497-a509-49257e580ebf','admin')
+COMMIT
+/*C1*/INSERT INTO LOB_IDS VALUES(263,2059,0,40)
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 264
+COMMIT
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=262
+INSERT INTO BLOCKS VALUES(262,1,0)
+INSERT INTO BLOCKS VALUES(263,2147483384,0)
+DELETE FROM BLOCKS WHERE BLOCK_ADDR=262
+INSERT INTO LOBS VALUES(262,1,0,263)
+COMMIT
+/*C20*/SET SCHEMA "isiscommand"
+INSERT INTO "Command" VALUES('55c5df87-26be-4497-a509-49257e580ebf','Transaction: 2 objects\u000aCategory: Healthcare\u000aSub-Category: Medical Test\u000a','2019-07-19 17:05:42.932000',NULL,'FOREGROUND','domainapp.modules.txn.view.dashboard.ManageTransactionDashboard#changeCategory()',263,NULL,NULL,NULL,NULL,'2019-07-19 17:05:42.930000','Change Category','Manage Transaction Dashboard','*stmt.ManageTransactionDashboard:eyJmaWx0ZXIiOiIobmFycmF0aW9uLmluZGV4T2YoXHUwMDI3SEVBTFRIXHUwMDI3KSBcdTAwM2VcdTAwM2QgMCkgXHUwMDI2XHUwMDI2ICgoY2F0ZWdvcnkgXHUwMDNkXHUwMDNkIG51bGwgXHUwMDI2XHUwMDI2IHN1YkNhdGVnb3J5IFx1MDAzZFx1MDAzZCBudWxsKSApIiwicGFyYW1ldGVycyI6eyJ1c2VySW5wdXRWYWx1ZXMiOnsibmFycmF0aW9uIjoiSEVBTFRIIiwidW5jYXRlZ29yaXplZCI6dHJ1ZX19fQ==','2019-07-19 17:05:42.925000','admin')
+SET SCHEMA SYSTEM_LOBS
+DELETE FROM LOB_IDS WHERE LOB_ID=263
+INSERT INTO LOB_IDS VALUES(263,2059,1,40)
+COMMIT
+/*C18*/DELETE FROM "SessionLogEntry" WHERE "sessionId"='1738528666'
+INSERT INTO "SessionLogEntry" VALUES('1738528666',NULL,'2019-07-19 16:53:49.126000','2019-07-19 17:06:37.086000','admin')
+COMMIT
+DELETE FROM "SessionLogEntry" WHERE "sessionId"='1738528666'
+INSERT INTO "SessionLogEntry" VALUES('1738528666','USER','2019-07-19 16:53:49.126000','2019-07-19 17:06:37.086000','admin')
 COMMIT
